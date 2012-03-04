@@ -1,5 +1,4 @@
-
-bj/
+Temp/
 
 Library/cache
 Library/metadata
@@ -35,4 +34,5 @@ Assembly-UnityScript.unityProj
 *.userprefs
 *.suo
 *.sln
+*.pidb
 
