@@ -18,11 +18,11 @@ public class SelectionStoryDialog : StoryDialog {
 		
 		//draw selection area
 		
-		float spaceHeight = 10;
+		float spaceHeight = 30;
 		
 		//measure size
 		float width = 300;	//minWidth
-		float height = 30;	//minHeight
+		float height = 100;	//minHeight
 		foreach (string option in options) {
 			Vector2 size = GUI.skin.button.CalcSize(new GUIContent(option));
 			if (size.x > width) {

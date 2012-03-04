@@ -57,6 +57,25 @@ public abstract class InputControllerBase {
 	}*/
 	
 	/// <summary>
+	/// Return true if the user release the cursor
+	/// </summary>
+	/// <param name="position">
+	/// A <see cref="Vector2"/>
+	/// </param>
+	/// <returns>
+	/// A <see cref="System.Boolean"/>
+	/// </returns>
+	public bool isRelease() {
+		Debug.Log("Check release: " + prevCursorIsDown.ToString() + ", " + cursorIsDown.ToString());
+		return prevCursorIsDown && !cursorIsDown;
+	}
+	
+	public bool isPress() {
+		Debug.Log("Check press: " + prevCursorIsDown.ToString() + ", " + cursorIsDown.ToString());
+		return !prevCursorIsDown && cursorIsDown;
+	}
+	
+	/// <summary>
 	/// Return whether the cursor is clicked (press and then release) inside the area. 
 	/// </summary>
 	/// <param name="area">
@@ -67,23 +86,9 @@ public abstract class InputControllerBase {
 	/// </returns>
 	public bool isClick(Rect guiArea) {
 		Rect guiAreaMirroed = new Rect(guiArea.xMin, Screen.height - guiArea.yMax, guiArea.width, guiArea.height);
-		return prevCursorIsDown && !cursorIsDown 
-			&& guiAreaMirroed.Contains(prevCursorPressPosition)
-			&& guiAreaMirroed.Contains(prevCursorPosition);	//for finger, the current position will reset to zero.
-	}
-	
-	/// <summary>
-	/// Return true if the user release the cursor
-	/// </summary>
-	/// <param name="position">
-	/// A <see cref="Vector2"/>
-	/// </param>
-	/// <returns>
-	/// A <see cref="System.Boolean"/>
-	/// </returns>
-	public bool isRelease() {
-		//Debug.Log("Check release: " + prevCursorIsDown.ToString() + ", " + cursorIsDown.ToString());
-		return prevCursorIsDown && !cursorIsDown;
+		return isPress()
+			&& guiAreaMirroed.Contains(prevCursorPressPosition);
+			/*&& guiAreaMirroed.Contains(prevCursorPosition);*/	//for finger, the current position will reset to zero.
 	}
 	
 	/// <summary>
@@ -112,11 +117,11 @@ public abstract class InputControllerBase {
 			return false;
 		}
 		
-		ray = Camera.main.ScreenPointToRay(prevCursorPosition);
+		/*ray = Camera.main.ScreenPointToRay(prevCursorPosition);
 		if(!Physics.Raycast(ray, out info, distance) || info.collider != collider) {
-			//Debug.Log("fail 2");
+			Debug.Log("fail 2");
 			return false;
-		}
+		}*/
 		
 		//Debug.Log("Over collider...");
 		
@@ -136,7 +141,6 @@ public abstract class InputControllerBase {
 	/// A <see cref="System.Boolean"/>
 	/// </returns>
 	public bool isClickOn(Collider collider, float distance) {
-		return isRelease() && isOver(collider, distance);
-		//return prevCursorIsDown && isOver(collider, distance);
+		return isPress() && isOver(collider, distance);
 	}
 }
