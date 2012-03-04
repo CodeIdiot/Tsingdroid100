@@ -66,12 +66,12 @@ public abstract class InputControllerBase {
 	/// A <see cref="System.Boolean"/>
 	/// </returns>
 	public bool isRelease() {
-		Debug.Log("Check release: " + prevCursorIsDown.ToString() + ", " + cursorIsDown.ToString());
+		//Debug.Log("Check release: " + prevCursorIsDown.ToString() + ", " + cursorIsDown.ToString());
 		return prevCursorIsDown && !cursorIsDown;
 	}
 	
 	public bool isPress() {
-		Debug.Log("Check press: " + prevCursorIsDown.ToString() + ", " + cursorIsDown.ToString());
+		//Debug.Log("Check press: " + prevCursorIsDown.ToString() + ", " + cursorIsDown.ToString());
 		return !prevCursorIsDown && cursorIsDown;
 	}
 	
