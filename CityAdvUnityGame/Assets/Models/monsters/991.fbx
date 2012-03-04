@@ -1,0 +1,1546 @@
+; FBX 6.1.0 project file
+; Copyright (C) 1997-2008 Autodesk Inc. and/or its licensors.
+; All rights reserved.
+; ----------------------------------------------------
+
+FBXHeaderExtension:  {
+    FBXHeaderVersion: 1003
+    FBXVersion: 6100
+    CreationTimeStamp:  {
+        Version: 1000
+        Year: 2011
+        Month: 4
+        Day: 28
+        Hour: 21
+        Minute: 5
+        Second: 48
+        Millisecond: 489
+    }
+    Creator: "FBX SDK/FBX Plugins version 2009.1"
+    OtherFlags:  {
+        FlagPLE: 0
+    }
+}
+CreationTime: "2011-04-28 21:05:48:489"
+Creator: "FBX SDK/FBX Plugins build 20080516"
+
+; Document Description
+;------------------------------------------------------------------
+
+Document:  {
+    Name: ""
+}
+
+; Document References
+;------------------------------------------------------------------
+
+References:  {
+}
+
+; Object definitions
+;------------------------------------------------------------------
+
+Definitions:  {
+    Version: 100
+    Count: 12
+    ObjectType: "Model" {
+        Count: 7
+    }
+    ObjectType: "Material" {
+        Count: 3
+    }
+    ObjectType: "SceneInfo" {
+        Count: 1
+    }
+    ObjectType: "GlobalSettings" {
+        Count: 1
+    }
+}
+
+; Object properties
+;------------------------------------------------------------------
+
+Objects:  {
+    Model: "Model::Model", "Null" {
+        Version: 232
+        Properties60:  {
+            Property: "QuaternionInterpolate", "bool", "",0
+            Property: "RotationOffset", "Vector3D", "",0,0,0
+            Property: "RotationPivot", "Vector3D", "",0,0,0
+            Property: "ScalingOffset", "Vector3D", "",0,0,0
+            Property: "ScalingPivot", "Vector3D", "",0,0,0
+            Property: "TranslationActive", "bool", "",0
+            Property: "TranslationMin", "Vector3D", "",0,0,0
+            Property: "TranslationMax", "Vector3D", "",0,0,0
+            Property: "TranslationMinX", "bool", "",0
+            Property: "TranslationMinY", "bool", "",0
+            Property: "TranslationMinZ", "bool", "",0
+            Property: "TranslationMaxX", "bool", "",0
+            Property: "TranslationMaxY", "bool", "",0
+            Property: "TranslationMaxZ", "bool", "",0
+            Property: "RotationOrder", "enum", "",0
+            Property: "RotationSpaceForLimitOnly", "bool", "",0
+            Property: "RotationStiffnessX", "double", "",0
+            Property: "RotationStiffnessY", "double", "",0
+            Property: "RotationStiffnessZ", "double", "",0
+            Property: "AxisLen", "double", "",10
+            Property: "PreRotation", "Vector3D", "",0,0,0
+            Property: "PostRotation", "Vector3D", "",0,0,0
+            Property: "RotationActive", "bool", "",0
+            Property: "RotationMin", "Vector3D", "",0,0,0
+            Property: "RotationMax", "Vector3D", "",0,0,0
+            Property: "RotationMinX", "bool", "",0
+            Property: "RotationMinY", "bool", "",0
+            Property: "RotationMinZ", "bool", "",0
+            Property: "RotationMaxX", "bool", "",0
+            Property: "RotationMaxY", "bool", "",0
+            Property: "RotationMaxZ", "bool", "",0
+            Property: "InheritType", "enum", "",0
+            Property: "ScalingActive", "bool", "",0
+            Property: "ScalingMin", "Vector3D", "",1,1,1
+            Property: "ScalingMax", "Vector3D", "",1,1,1
+            Property: "ScalingMinX", "bool", "",0
+            Property: "ScalingMinY", "bool", "",0
+            Property: "ScalingMinZ", "bool", "",0
+            Property: "ScalingMaxX", "bool", "",0
+            Property: "ScalingMaxY", "bool", "",0
+            Property: "ScalingMaxZ", "bool", "",0
+            Property: "GeometricTranslation", "Vector3D", "",0,0,0
+            Property: "GeometricRotation", "Vector3D", "",0,0,0
+            Property: "GeometricScaling", "Vector3D", "",1,1,1
+            Property: "MinDampRangeX", "double", "",0
+            Property: "MinDampRangeY", "double", "",0
+            Property: "MinDampRangeZ", "double", "",0
+            Property: "MaxDampRangeX", "double", "",0
+            Property: "MaxDampRangeY", "double", "",0
+            Property: "MaxDampRangeZ", "double", "",0
+            Property: "MinDampStrengthX", "double", "",0
+            Property: "MinDampStrengthY", "double", "",0
+            Property: "MinDampStrengthZ", "double", "",0
+            Property: "MaxDampStrengthX", "double", "",0
+            Property: "MaxDampStrengthY", "double", "",0
+            Property: "MaxDampStrengthZ", "double", "",0
+            Property: "PreferedAngleX", "double", "",0
+            Property: "PreferedAngleY", "double", "",0
+            Property: "PreferedAngleZ", "double", "",0
+            Property: "LookAtProperty", "object", ""
+            Property: "UpVectorProperty", "object", ""
+            Property: "Show", "bool", "",1
+            Property: "NegativePercentShapeSupport", "bool", "",1
+            Property: "DefaultAttributeIndex", "int", "",-1
+            Property: "Lcl Translation", "Lcl Translation", "A+",0,0,0
+            Property: "Lcl Rotation", "Lcl Rotation", "A+",0,0,0
+            Property: "Lcl Scaling", "Lcl Scaling", "A+",1,1,1
+            Property: "Visibility", "Visibility", "A+",1
+        }
+        MultiLayer: 0
+        MultiTake: 1
+        Shading: Y
+        Culling: "CullingOff"
+        TypeFlags: "Null"
+    }
+    Model: "Model::Group1", "Null" {
+        Version: 232
+        Properties60:  {
+            Property: "QuaternionInterpolate", "bool", "",0
+            Property: "RotationOffset", "Vector3D", "",0,0,0
+            Property: "RotationPivot", "Vector3D", "",0,0,0
+            Property: "ScalingOffset", "Vector3D", "",0,0,0
+            Property: "ScalingPivot", "Vector3D", "",0,0,0
+            Property: "TranslationActive", "bool", "",0
+            Property: "TranslationMin", "Vector3D", "",0,0,0
+            Property: "TranslationMax", "Vector3D", "",0,0,0
+            Property: "TranslationMinX", "bool", "",0
+            Property: "TranslationMinY", "bool", "",0
+            Property: "TranslationMinZ", "bool", "",0
+            Property: "TranslationMaxX", "bool", "",0
+            Property: "TranslationMaxY", "bool", "",0
+            Property: "TranslationMaxZ", "bool", "",0
+            Property: "RotationOrder", "enum", "",0
+            Property: "RotationSpaceForLimitOnly", "bool", "",0
+            Property: "RotationStiffnessX", "double", "",0
+            Property: "RotationStiffnessY", "double", "",0
+            Property: "RotationStiffnessZ", "double", "",0
+            Property: "AxisLen", "double", "",10
+            Property: "PreRotation", "Vector3D", "",0,0,0
+            Property: "PostRotation", "Vector3D", "",0,0,0
+            Property: "RotationActive", "bool", "",0
+            Property: "RotationMin", "Vector3D", "",0,0,0
+            Property: "RotationMax", "Vector3D", "",0,0,0
+            Property: "RotationMinX", "bool", "",0
+            Property: "RotationMinY", "bool", "",0
+            Property: "RotationMinZ", "bool", "",0
+            Property: "RotationMaxX", "bool", "",0
+            Property: "RotationMaxY", "bool", "",0
+            Property: "RotationMaxZ", "bool", "",0
+            Property: "InheritType", "enum", "",0
+            Property: "ScalingActive", "bool", "",0
+            Property: "ScalingMin", "Vector3D", "",1,1,1
+            Property: "ScalingMax", "Vector3D", "",1,1,1
+            Property: "ScalingMinX", "bool", "",0
+            Property: "ScalingMinY", "bool", "",0
+            Property: "ScalingMinZ", "bool", "",0
+            Property: "ScalingMaxX", "bool", "",0
+            Property: "ScalingMaxY", "bool", "",0
+            Property: "ScalingMaxZ", "bool", "",0
+            Property: "GeometricTranslation", "Vector3D", "",0,0,0
+            Property: "GeometricRotation", "Vector3D", "",0,0,0
+            Property: "GeometricScaling", "Vector3D", "",1,1,1
+            Property: "MinDampRangeX", "double", "",0
+            Property: "MinDampRangeY", "double", "",0
+            Property: "MinDampRangeZ", "double", "",0
+            Property: "MaxDampRangeX", "double", "",0
+            Property: "MaxDampRangeY", "double", "",0
+            Property: "MaxDampRangeZ", "double", "",0
+            Property: "MinDampStrengthX", "double", "",0
+            Property: "MinDampStrengthY", "double", "",0
+            Property: "MinDampStrengthZ", "double", "",0
+            Property: "MaxDampStrengthX", "double", "",0
+            Property: "MaxDampStrengthY", "double", "",0
+            Property: "MaxDampStrengthZ", "double", "",0
+            Property: "PreferedAngleX", "double", "",0
+            Property: "PreferedAngleY", "double", "",0
+            Property: "PreferedAngleZ", "double", "",0
+            Property: "LookAtProperty", "object", ""
+            Property: "UpVectorProperty", "object", ""
+            Property: "Show", "bool", "",1
+            Property: "NegativePercentShapeSupport", "bool", "",1
+            Property: "DefaultAttributeIndex", "int", "",-1
+            Property: "Lcl Translation", "Lcl Translation", "A+",0,0,0
+            Property: "Lcl Rotation", "Lcl Rotation", "A+",0,0,0
+            Property: "Lcl Scaling", "Lcl Scaling", "A+",1,1,1
+            Property: "Visibility", "Visibility", "A+",1
+        }
+        MultiLayer: 0
+        MultiTake: 1
+        Shading: Y
+        Culling: "CullingOff"
+        TypeFlags: "Null"
+    }
+    Model: "Model::Mesh1", "Mesh" {
+        Version: 232
+        Properties60:  {
+            Property: "QuaternionInterpolate", "bool", "",0
+            Property: "RotationOffset", "Vector3D", "",0,0,0
+            Property: "RotationPivot", "Vector3D", "",0,0,0
+            Property: "ScalingOffset", "Vector3D", "",0,0,0
+            Property: "ScalingPivot", "Vector3D", "",0,0,0
+            Property: "TranslationActive", "bool", "",0
+            Property: "TranslationMin", "Vector3D", "",0,0,0
+            Property: "TranslationMax", "Vector3D", "",0,0,0
+            Property: "TranslationMinX", "bool", "",0
+            Property: "TranslationMinY", "bool", "",0
+            Property: "TranslationMinZ", "bool", "",0
+            Property: "TranslationMaxX", "bool", "",0
+            Property: "TranslationMaxY", "bool", "",0
+            Property: "TranslationMaxZ", "bool", "",0
+            Property: "RotationOrder", "enum", "",0
+            Property: "RotationSpaceForLimitOnly", "bool", "",0
+            Property: "RotationStiffnessX", "double", "",0
+            Property: "RotationStiffnessY", "double", "",0
+            Property: "RotationStiffnessZ", "double", "",0
+            Property: "AxisLen", "double", "",10
+            Property: "PreRotation", "Vector3D", "",0,0,0
+            Property: "PostRotation", "Vector3D", "",0,0,0
+            Property: "RotationActive", "bool", "",0
+            Property: "RotationMin", "Vector3D", "",0,0,0
+            Property: "RotationMax", "Vector3D", "",0,0,0
+            Property: "RotationMinX", "bool", "",0
+            Property: "RotationMinY", "bool", "",0
+            Property: "RotationMinZ", "bool", "",0
+            Property: "RotationMaxX", "bool", "",0
+            Property: "RotationMaxY", "bool", "",0
+            Property: "RotationMaxZ", "bool", "",0
+            Property: "InheritType", "enum", "",0
+            Property: "ScalingActive", "bool", "",0
+            Property: "ScalingMin", "Vector3D", "",1,1,1
+            Property: "ScalingMax", "Vector3D", "",1,1,1
+            Property: "ScalingMinX", "bool", "",0
+            Property: "ScalingMinY", "bool", "",0
+            Property: "ScalingMinZ", "bool", "",0
+            Property: "ScalingMaxX", "bool", "",0
+            Property: "ScalingMaxY", "bool", "",0
+            Property: "ScalingMaxZ", "bool", "",0
+            Property: "GeometricTranslation", "Vector3D", "",0,0,0
+            Property: "GeometricRotation", "Vector3D", "",0,0,0
+            Property: "GeometricScaling", "Vector3D", "",1,1,1
+            Property: "MinDampRangeX", "double", "",0
+            Property: "MinDampRangeY", "double", "",0
+            Property: "MinDampRangeZ", "double", "",0
+            Property: "MaxDampRangeX", "double", "",0
+            Property: "MaxDampRangeY", "double", "",0
+            Property: "MaxDampRangeZ", "double", "",0
+            Property: "MinDampStrengthX", "double", "",0
+            Property: "MinDampStrengthY", "double", "",0
+            Property: "MinDampStrengthZ", "double", "",0
+            Property: "MaxDampStrengthX", "double", "",0
+            Property: "MaxDampStrengthY", "double", "",0
+            Property: "MaxDampStrengthZ", "double", "",0
+            Property: "PreferedAngleX", "double", "",0
+            Property: "PreferedAngleY", "double", "",0
+            Property: "PreferedAngleZ", "double", "",0
+            Property: "LookAtProperty", "object", ""
+            Property: "UpVectorProperty", "object", ""
+            Property: "Show", "bool", "",1
+            Property: "NegativePercentShapeSupport", "bool", "",1
+            Property: "DefaultAttributeIndex", "int", "",0
+            Property: "Lcl Translation", "Lcl Translation", "A+",0,0,0
+            Property: "Lcl Rotation", "Lcl Rotation", "A+",0,0,0
+            Property: "Lcl Scaling", "Lcl Scaling", "A+",1,1,1
+            Property: "Visibility", "Visibility", "A+",1
+            Property: "Color", "ColorRGB", "N",0.8,0.8,0.8
+            Property: "BBoxMin", "Vector3D", "N",0,0,0
+            Property: "BBoxMax", "Vector3D", "N",0,0,0
+        }
+        MultiLayer: 0
+        MultiTake: 1
+        Shading: T
+        Culling: "CullingOff"
+        Vertices: 2,0,0,2,0,-2,0,0,-2,0,0,0,2,0,0,2,0,-2,2,0.15,-2,2,0.15,0,2,0,-2,0,0,-2,0,0.15,-2,2,0.15,-2,0,0,-2,0,0,0,0,0.15,0
+        ,0,0.15,-2,0,0,0,2,0,0,2,0.15,0,0,0.15,0,2,0.15,0,2,0.15,-2,0,0.15,-2,0,0.15,0
+        PolygonVertexIndex: 0,1,2,-4,4,5,6,-8,8,9,10,-12,12,13,14,-16,16,17,18,-20,20,21,22,-24
+        GeometryVersion: 124
+        LayerElementNormal: 0 {
+            Version: 101
+            Name: ""
+            MappingInformationType: "ByVertice"
+            ReferenceInformationType: "Direct"
+            Normals: 0,1,-0,0,1,-0,0,1,-0,0,1,-0,1,0,-0,1,0,-0,1,0,-0,1,0,-0,0,0,-1,0,0,-1,0,0,-1,0,0,-1,-1,0,-0,-1,0,-0,-1,0,-0,-1
+             ,0,-0,0,0,1,0,0,1,0,0,1,0,0,1,0,1,-0,0,1,-0,0,1,-0,0,1,-0
+        }
+        LayerElementUV: 0 {
+            Version: 101
+            Name: ""
+            MappingInformationType: "ByPolygonVertex"
+            ReferenceInformationType: "IndexToDirect"
+            UV: 78.7401574803149,0,78.7401574803149,78.740157480315,0,78.740157480315,0,0,78.740157480315,0,78.740157480315,5.90551181102362
+             ,0,5.90551181102362,-78.7401574803149,0,-78.7401574803149,5.90551181102362,-78.740157480315,0,-78.740157480315
+             ,5.90551181102362,78.7401574803149,5.90551181102362
+            UVIndex: 0,1,2,3,3,4,5,6,7,3,6,8,9,3,6,10,3,0,11,6,0,1,2,3
+        }
+        LayerElementMaterial: 0 {
+            Version: 101
+            Name: ""
+            MappingInformationType: "ByPolygon"
+            ReferenceInformationType: "IndexToDirect"
+            Materials: 0,0,0,0,0,0
+        }
+        LayerElementTexture: 0 {
+            Version: 101
+            Name: ""
+            MappingInformationType: "ByPolygon"
+            ReferenceInformationType: "IndexToDirect"
+            BlendMode: "Translucent"
+            TextureAlpha: 1
+            TextureId: -1,-1,-1,-1,-1,-1
+        }
+        Layer: 0 {
+            Version: 100
+            LayerElement:  {
+                Type: "LayerElementNormal"
+                TypedIndex: 0
+            }
+            LayerElement:  {
+                Type: "LayerElementMaterial"
+                TypedIndex: 0
+            }
+            LayerElement:  {
+                Type: "LayerElementTexture"
+                TypedIndex: 0
+            }
+            LayerElement:  {
+                Type: "LayerElementUV"
+                TypedIndex: 0
+            }
+        }
+        NodeAttributeName: "Geometry::Mesh1"
+    }
+    Model: "Model::Group2", "Null" {
+        Version: 232
+        Properties60:  {
+            Property: "QuaternionInterpolate", "bool", "",0
+            Property: "RotationOffset", "Vector3D", "",0,0,0
+            Property: "RotationPivot", "Vector3D", "",0,0,0
+            Property: "ScalingOffset", "Vector3D", "",0,0,0
+            Property: "ScalingPivot", "Vector3D", "",0,0,0
+            Property: "TranslationActive", "bool", "",0
+            Property: "TranslationMin", "Vector3D", "",0,0,0
+            Property: "TranslationMax", "Vector3D", "",0,0,0
+            Property: "TranslationMinX", "bool", "",0
+            Property: "TranslationMinY", "bool", "",0
+            Property: "TranslationMinZ", "bool", "",0
+            Property: "TranslationMaxX", "bool", "",0
+            Property: "TranslationMaxY", "bool", "",0
+            Property: "TranslationMaxZ", "bool", "",0
+            Property: "RotationOrder", "enum", "",0
+            Property: "RotationSpaceForLimitOnly", "bool", "",0
+            Property: "RotationStiffnessX", "double", "",0
+            Property: "RotationStiffnessY", "double", "",0
+            Property: "RotationStiffnessZ", "double", "",0
+            Property: "AxisLen", "double", "",10
+            Property: "PreRotation", "Vector3D", "",0,0,0
+            Property: "PostRotation", "Vector3D", "",0,0,0
+            Property: "RotationActive", "bool", "",0
+            Property: "RotationMin", "Vector3D", "",0,0,0
+            Property: "RotationMax", "Vector3D", "",0,0,0
+            Property: "RotationMinX", "bool", "",0
+            Property: "RotationMinY", "bool", "",0
+            Property: "RotationMinZ", "bool", "",0
+            Property: "RotationMaxX", "bool", "",0
+            Property: "RotationMaxY", "bool", "",0
+            Property: "RotationMaxZ", "bool", "",0
+            Property: "InheritType", "enum", "",0
+            Property: "ScalingActive", "bool", "",0
+            Property: "ScalingMin", "Vector3D", "",1,1,1
+            Property: "ScalingMax", "Vector3D", "",1,1,1
+            Property: "ScalingMinX", "bool", "",0
+            Property: "ScalingMinY", "bool", "",0
+            Property: "ScalingMinZ", "bool", "",0
+            Property: "ScalingMaxX", "bool", "",0
+            Property: "ScalingMaxY", "bool", "",0
+            Property: "ScalingMaxZ", "bool", "",0
+            Property: "GeometricTranslation", "Vector3D", "",0,0,0
+            Property: "GeometricRotation", "Vector3D", "",0,0,0
+            Property: "GeometricScaling", "Vector3D", "",1,1,1
+            Property: "MinDampRangeX", "double", "",0
+            Property: "MinDampRangeY", "double", "",0
+            Property: "MinDampRangeZ", "double", "",0
+            Property: "MaxDampRangeX", "double", "",0
+            Property: "MaxDampRangeY", "double", "",0
+            Property: "MaxDampRangeZ", "double", "",0
+            Property: "MinDampStrengthX", "double", "",0
+            Property: "MinDampStrengthY", "double", "",0
+            Property: "MinDampStrengthZ", "double", "",0
+            Property: "MaxDampStrengthX", "double", "",0
+            Property: "MaxDampStrengthY", "double", "",0
+            Property: "MaxDampStrengthZ", "double", "",0
+            Property: "PreferedAngleX", "double", "",0
+            Property: "PreferedAngleY", "double", "",0
+            Property: "PreferedAngleZ", "double", "",0
+            Property: "LookAtProperty", "object", ""
+            Property: "UpVectorProperty", "object", ""
+            Property: "Show", "bool", "",1
+            Property: "NegativePercentShapeSupport", "bool", "",1
+            Property: "DefaultAttributeIndex", "int", "",-1
+            Property: "Lcl Translation", "Lcl Translation", "A+",0,0,0
+            Property: "Lcl Rotation", "Lcl Rotation", "A+",0,0,0
+            Property: "Lcl Scaling", "Lcl Scaling", "A+",1,1,1
+            Property: "Visibility", "Visibility", "A+",1
+        }
+        MultiLayer: 0
+        MultiTake: 1
+        Shading: Y
+        Culling: "CullingOff"
+        TypeFlags: "Null"
+    }
+    Model: "Model::Mesh2", "Mesh" {
+        Version: 232
+        Properties60:  {
+            Property: "QuaternionInterpolate", "bool", "",0
+            Property: "RotationOffset", "Vector3D", "",0,0,0
+            Property: "RotationPivot", "Vector3D", "",0,0,0
+            Property: "ScalingOffset", "Vector3D", "",0,0,0
+            Property: "ScalingPivot", "Vector3D", "",0,0,0
+            Property: "TranslationActive", "bool", "",0
+            Property: "TranslationMin", "Vector3D", "",0,0,0
+            Property: "TranslationMax", "Vector3D", "",0,0,0
+            Property: "TranslationMinX", "bool", "",0
+            Property: "TranslationMinY", "bool", "",0
+            Property: "TranslationMinZ", "bool", "",0
+            Property: "TranslationMaxX", "bool", "",0
+            Property: "TranslationMaxY", "bool", "",0
+            Property: "TranslationMaxZ", "bool", "",0
+            Property: "RotationOrder", "enum", "",0
+            Property: "RotationSpaceForLimitOnly", "bool", "",0
+            Property: "RotationStiffnessX", "double", "",0
+            Property: "RotationStiffnessY", "double", "",0
+            Property: "RotationStiffnessZ", "double", "",0
+            Property: "AxisLen", "double", "",10
+            Property: "PreRotation", "Vector3D", "",0,0,0
+            Property: "PostRotation", "Vector3D", "",0,0,0
+            Property: "RotationActive", "bool", "",0
+            Property: "RotationMin", "Vector3D", "",0,0,0
+            Property: "RotationMax", "Vector3D", "",0,0,0
+            Property: "RotationMinX", "bool", "",0
+            Property: "RotationMinY", "bool", "",0
+            Property: "RotationMinZ", "bool", "",0
+            Property: "RotationMaxX", "bool", "",0
+            Property: "RotationMaxY", "bool", "",0
+            Property: "RotationMaxZ", "bool", "",0
+            Property: "InheritType", "enum", "",0
+            Property: "ScalingActive", "bool", "",0
+            Property: "ScalingMin", "Vector3D", "",1,1,1
+            Property: "ScalingMax", "Vector3D", "",1,1,1
+            Property: "ScalingMinX", "bool", "",0
+            Property: "ScalingMinY", "bool", "",0
+            Property: "ScalingMinZ", "bool", "",0
+            Property: "ScalingMaxX", "bool", "",0
+            Property: "ScalingMaxY", "bool", "",0
+            Property: "ScalingMaxZ", "bool", "",0
+            Property: "GeometricTranslation", "Vector3D", "",0,0,0
+            Property: "GeometricRotation", "Vector3D", "",0,0,0
+            Property: "GeometricScaling", "Vector3D", "",1,1,1
+            Property: "MinDampRangeX", "double", "",0
+            Property: "MinDampRangeY", "double", "",0
+            Property: "MinDampRangeZ", "double", "",0
+            Property: "MaxDampRangeX", "double", "",0
+            Property: "MaxDampRangeY", "double", "",0
+            Property: "MaxDampRangeZ", "double", "",0
+            Property: "MinDampStrengthX", "double", "",0
+            Property: "MinDampStrengthY", "double", "",0
+            Property: "MinDampStrengthZ", "double", "",0
+            Property: "MaxDampStrengthX", "double", "",0
+            Property: "MaxDampStrengthY", "double", "",0
+            Property: "MaxDampStrengthZ", "double", "",0
+            Property: "PreferedAngleX", "double", "",0
+            Property: "PreferedAngleY", "double", "",0
+            Property: "PreferedAngleZ", "double", "",0
+            Property: "LookAtProperty", "object", ""
+            Property: "UpVectorProperty", "object", ""
+            Property: "Show", "bool", "",1
+            Property: "NegativePercentShapeSupport", "bool", "",1
+            Property: "DefaultAttributeIndex", "int", "",0
+            Property: "Lcl Translation", "Lcl Translation", "A+",0,0,0
+            Property: "Lcl Rotation", "Lcl Rotation", "A+",0,0,0
+            Property: "Lcl Scaling", "Lcl Scaling", "A+",1,1,1
+            Property: "Visibility", "Visibility", "A+",1
+            Property: "Color", "ColorRGB", "N",0.8,0.8,0.8
+            Property: "BBoxMin", "Vector3D", "N",0,0,0
+            Property: "BBoxMax", "Vector3D", "N",0,0,0
+        }
+        MultiLayer: 0
+        MultiTake: 1
+        Shading: T
+        Culling: "CullingOff"
+        Vertices: 1.29600314746105,2.8393674217438,-1.26873619490789,1.5,2.7467222122614,-1.41243365254455,1.5,3.01725679854512,-1.2415212842844
+        ,1.5,2.7467222122614,-1.41243365254455,1.29600314746105,2.8393674217438,-1.26873619490789,1.5,2.7393674217438,-1.02873619490789
+        ,1.29600314746105,2.8393674217438,-1.26873619490789,1.5,3.01725679854512,-1.2415212842844,1.5,2.7393674217438,-1.02873619490789
+        ,1.5,3.92063506576414,-1.25989995411111,1.5,2.7393674217438,-1.02873619490789,1.5,3.01725679854512,-1.2415212842844
+        ,1.5,3.50737118991854,-0.831283516001656,1.5,4.09610042565426,-0.766295488790585,1.5,4.12666405657543,-0.5,1.5,3.89068180979505
+        ,-0.5,1.5,4.12666405657543,-0.5,1.35493652694712,3.97931921039906,-0.5,1.5,3.89068180979505,-0.5,0.675751976365782
+        ,3.99604971882477,-0.5,1.17947086080173,4.30838936274239,-0.5,0.942811379336854,4.72610476181107,-0.5,1.5,4.33245820621429
+        ,-0.831283516001656,0.942811379336854,4.72610476181107,-0.5,1.5,4.12666405657543,-0.5,0.942811379336854,4.72610476181107
+        ,-0.5,1.5,4.33245820621429,-0.831283516001656,1.5,4.99802541384673,-0.5,1.5,4.33245820621429,-0.831283516001656,1.5
+        ,5.15,-0.5,1.5,4.99802541384673,-0.5,1.5,5.15,-0.838614499957447,1.5,4.21754043758722,-1.17075288358941,1.5,4.09610042565426
+        ,-0.766295488790585,1.35,4.21754043758722,-1.01075288358941,1.5,4.21754043758722,-1.17075288358941,1.35,4.21754043758722
+        ,-1.01075288358941,1.5,4.09610042565426,-0.766295488790585,1.5,3.92063506576414,-1.25989995411111,1.35,4.21754043758722
+        ,-1.01075288358941,1.5,3.92063506576414,-1.25989995411111,1.5,4.21754043758722,-1.17075288358941,1.5,4.67492181963489
+        ,-1.17075288358941,1.5,4.42375237384279,-1.5,1.5,3.27392272301577,-1.27887765101966,1.5,2.7467222122614,-1.41243365254455
+        ,1.5,3.05695786217109,-1.5,1.5,2.69192030953149,-1.5,1.5,2.56189556902319,-1.05875906031313,1.5,0.15,-1.15076944555894
+        ,1.5,1.58298683865393,-1.02873619490789,1.5,0.8026377007374,-1.02873619490789,1.5,0.562848580382214,-0.839128601208992
+        ,1.5,0.370256286034717,-0.5,1.5,0.15,-0.5,1.5,0.370256286034717,-0.5,1,0.15,-0.5,1.5,0.15,-0.5,0.500000000000002,0.575411963609132
+        ,-0.5,1.11050348396916,0.521476858695939,-0.500000000000001,1.5,0.562848580382214,-0.839128601208992,1.11050348396916
+        ,0.521476858695939,-0.500000000000001,1.5,0.370256286034717,-0.5,1.11050348396916,0.521476858695939,-0.500000000000001
+        ,1.5,0.562848580382214,-0.839128601208992,1.5,0.834993148543597,-0.5,1.5,1.5199862970872,-0.500000000000001,1.5,0.834993148543597
+        ,-0.5,1.5,0.993462171567648,-0.696083895876525,1.5,0.8026377007374,-1.02873619490789,0.959999999999998,1.09346217156765
+        ,-0.796083895876525,1.5,0.993462171567648,-0.696083895876525,0.959999999999998,1.09346217156765,-0.796083895876525
+        ,1.5,0.8026377007374,-1.02873619490789,1.5,1.58298683865393,-1.02873619490789,0.959999999999998,1.09346217156765,-0.796083895876525
+        ,1.5,1.58298683865393,-1.02873619490789,1.5,0.993462171567648,-0.696083895876525,1.5,1.94579381212832,-1.01728904892188
+        ,1.5,1.94579381212832,-1.01728904892188,1.19410535976874,1.80349933465093,-0.500000000000001,1.5,1.5199862970872,-0.500000000000001
+        ,1.19410535976874,1.80349933465093,-0.500000000000001,1.5,1.94579381212832,-1.01728904892188,1.5,2.13354246679852
+        ,-0.5,1.5,2.50096822116411,-0.5,1.5,2.13354246679852,-0.5,1.5,2.84226487989422,-0.823135560933274,1.5,3.50737118991854
+        ,-0.5,1.5,3.1998797651463,-0.5,1.42838435008955,3.28268502407045,-0.5,1.5,3.1998797651463,-0.5,1.5,3.50737118991854
+        ,-0.5,0.940363857806439,3.1217204118139,-0.5,0.500000000000002,3.05695786217109,-0.5,1.17198742824634,2.97095236885754
+        ,-0.5,0.500000000000002,2.69192030953149,-0.5,1.5,2.50096822116411,-0.5,0.864152717467248,2.4138322696195,-0.5,0.853132822581428
+        ,2.22892549506308,-0.5,1.5,2.13354246679852,-0.5,1.19410535976874,1.80349933465093,-0.500000000000001,1.01317232112369
+        ,1.78701220163739,-0.5,0.500000000000002,1.57363107967019,-0.5,1.5,1.5199862970872,-0.500000000000001,1.22640757306241
+        ,1.46536351364115,-0.5,0.764887022679429,1.19877174221842,-0.500000000000001,0.500000000000002,0.834993148543597,-0.5
+        ,0.853132822581428,0.59385445113342,-0.5,0.500000000000002,0.834993148543597,-0.5,0.499999999999999,0.15,-0.849230554441064
+        ,0.500000000000002,0.575411963609132,-0.5,0.500000000000002,1.43291590657136,-0.831359683817701,0.764887022679429
+        ,1.19877174221842,-0.500000000000001,0.500000000000002,1.43291590657136,-0.831359683817701,0.500000000000002,0.834993148543597
+        ,-0.5,0.500000000000002,1.43291590657136,-0.831359683817701,0.764887022679429,1.19877174221842,-0.500000000000001
+        ,0.500000000000002,1.57363107967019,-0.5,0.500000000000002,1.57363107967019,-0.5,0.500000000000002,2.56189556902319
+        ,-0.941240939686867,0.500000000000002,2.13277569460084,-0.5,0.65517012409724,1.95483190041118,-0.5,0.500000000000002
+        ,2.13277569460084,-0.5,1.01317232112369,1.78701220163739,-0.5,0.953132822581428,2.12892549506308,-0.99,0.65517012409724
+        ,1.95483190041118,-0.5,0.953132822581428,2.12892549506308,-0.99,1.01317232112369,1.78701220163739,-0.5,0.853132822581428
+        ,2.22892549506308,-0.5,0.65517012409724,1.95483190041118,-0.5,0.953132822581428,2.12892549506308,-0.99,0.853132822581428
+        ,2.22892549506308,-0.5,0.864152717467248,2.4138322696195,-0.5,0.500000000000002,2.56189556902319,-0.941240939686867
+        ,0.500000000000002,2.13277569460084,-0.5,0.500000000000002,2.56189556902319,-0.941240939686867,0.864152717467248,2.4138322696195
+        ,-0.5,0.500000000000002,2.69192030953149,-0.5,0.500000000000002,2.7467222122614,-0.587566347455449,0.500000000000002
+        ,2.69192030953149,-0.5,0.500000000000002,2.7393674217438,-0.971263805092115,0.500000000000002,2.7467222122614,-0.587566347455449
+        ,0.703996852538955,2.8393674217438,-0.731263805092114,0.500000000000002,2.7393674217438,-0.971263805092115,0.703996852538955
+        ,2.8393674217438,-0.731263805092114,0.500000000000002,2.7467222122614,-0.587566347455449,0.500000000000002,3.01725679854512
+        ,-0.758478715715603,0.500000000000002,3.27392272301577,-0.721122348980344,0.500000000000002,3.01725679854512,-0.758478715715603
+        ,0.500000000000002,3.05695786217109,-0.5,0.978530893845667,3.40207839710819,-0.5,0.500000000000002,3.27392272301577
+        ,-0.721122348980344,0.500000000000002,3.05695786217109,-0.5,0.500000000000002,3.27392272301577,-0.721122348980344
+        ,0.978530893845667,3.40207839710819,-0.5,0.500000000000002,3.72236994040196,-0.5,0.978530893845667,3.40207839710819
+        ,-0.5,1.33905120344166,3.67258191930044,-0.5,0.500000000000002,3.72236994040196,-0.5,0.940363857806439,3.1217204118139
+        ,-0.5,1.23905120344166,3.57258191930044,-0.85,1.33905120344166,3.67258191930044,-0.5,1.23905120344166,3.57258191930044
+        ,-0.85,0.940363857806439,3.1217204118139,-0.5,1.42838435008955,3.28268502407045,-0.5,1.23905120344166,3.57258191930044
+        ,-0.85,1.42838435008955,3.28268502407045,-0.5,1.33905120344166,3.67258191930044,-0.5,1.5,3.50737118991854,-0.831283516001656
+        ,1.35493652694712,3.97931921039906,-0.5,1.5,3.50737118991854,-0.5,1.35493652694712,3.97931921039906,-0.5,1.5,3.50737118991854
+        ,-0.831283516001656,1.5,3.89068180979505,-0.5,0.500000000000002,4.42375237384279,-0.5,0.778755796984827,4.6074335695584
+        ,-0.5,0.675751976365782,3.99604971882477,-0.5,0.928755796984827,4.4574335695584,-0.97,0.778755796984827,4.6074335695584
+        ,-0.5,1.17947086080173,4.30838936274239,-0.5,0.928755796984827,4.4574335695584,-0.97,0.675751976365782,3.99604971882477
+        ,-0.5,0.928755796984827,4.4574335695584,-0.97,1.17947086080173,4.30838936274239,-0.5,0.778755796984827,4.6074335695584
+        ,-0.5,0.718689870769852,4.70971520433421,-0.500000000000001,0.500000000000002,4.90207008913152,-0.5,1.5,4.99802541384673
+        ,-0.5,1.01656872419485,4.98592921708579,-0.5,1.22194065464742,5.15,-0.5,1.5,5.15,-0.5,1.5,5.15,-1.5,1.11450674335693
+        ,5.15,-1.5,0.945309354262873,5.15,-1.19361422434493,0.778059345352571,5.15,-1.5,0.500000000000002,5.15,-1.5,0.500000000000002
+        ,5.15,-1.16138550004255,0.783683363263618,5.15,-0.9238486620417,0.500000000000002,5.15,-0.672380724023926,0.500000000000002
+        ,5.15,-0.5,0.885493256643069,5.15,-0.5,1.05469064573712,5.15,-0.806385775655065,1.22194065464742,5.15,-0.5,1.5,5.15
+        ,-0.5,1.5,5.15,-0.838614499957447,1.21631663673638,5.15,-1.0761513379583,1.5,5.15,-1.32761927597607,1.5,5.15,-1.5
+        ,0.983431275805149,4.98592921708579,-1.5,1.11450674335693,5.15,-1.5,1.5,4.90207008913152,-1.5,1.5,5.15,-1.32761927597607
+        ,1.5,4.90207008913152,-1.5,1.5,5.15,-1.5,1.5,4.85855415595246,-1.1269880770886,1.5,4.85855415595246,-1.1269880770886
+        ,1.21631663673638,5.15,-1.0761513379583,1.5,5.15,-0.838614499957447,1.21631663673638,5.15,-1.0761513379583,1.5,4.85855415595246
+        ,-1.1269880770886,1.5,5.15,-1.32761927597607,1.5,4.67492181963489,-1.17075288358941,1.28131012923015,4.70971520433421
+        ,-1.5,1.5,4.90207008913152,-1.5,1.28131012923015,4.70971520433421,-1.5,1.5,4.67492181963489,-1.17075288358941,1.5
+        ,4.42375237384279,-1.5,1.5,4.42375237384279,-1.5,1.22124420301517,4.6074335695584,-1.5,1.28131012923015,4.70971520433421
+        ,-1.5,1.32424802363421,3.99604971882477,-1.5,1.5,3.72236994040196,-1.5,0.645063473052885,3.97931921039906,-1.5,0.660948796558334
+        ,3.67258191930044,-1.5,0.500000000000002,3.50737118991854,-1.5,0.571615649910442,3.28268502407045,-1.5,0.500000000000002
+        ,3.1998797651463,-1.5,1.05963614219356,3.1217204118139,-1.5,1.5,3.05695786217109,-1.5,0.82801257175366,2.97095236885754
+        ,-1.5,1.5,2.69192030953149,-1.5,0.500000000000002,2.50096822116411,-1.5,1.13584728253275,2.4138322696195,-1.5,1.14686717741857
+        ,2.22892549506308,-1.5,0.500000000000002,2.13354246679852,-1.5,0.805894640231263,1.80349933465093,-1.5,0.986827678876308
+        ,1.78701220163739,-1.5,1.5,1.57363107967019,-1.5,0.500000000000002,1.5199862970872,-1.5,0.773592426937582,1.46536351364115
+        ,-1.5,1.23511297732057,1.19877174221842,-1.5,1.5,0.834993148543597,-1.5,1.14686717741857,0.59385445113342,-1.5,1.49999999999999
+        ,0.575411963609132,-1.5,1.5,1.43291590657136,-1.1686403161823,1.49999999999999,0.575411963609132,-1.5,1.5,0.834993148543597
+        ,-1.5,1.5,2.13277569460084,-1.5,1.5,1.57363107967019,-1.5,1.5,1.43291590657136,-1.1686403161823,1.23511297732057,1.19877174221842
+        ,-1.5,1.5,1.57363107967019,-1.5,1.23511297732057,1.19877174221842,-1.5,1.5,1.43291590657136,-1.1686403161823,1.5,0.834993148543597
+        ,-1.5,1.34482987590276,1.95483190041118,-1.5,1.5,2.13277569460084,-1.5,0.986827678876308,1.78701220163739,-1.5,1.04686717741857
+        ,2.12892549506308,-1.01,1.34482987590276,1.95483190041118,-1.5,1.04686717741857,2.12892549506308,-1.01,0.986827678876308
+        ,1.78701220163739,-1.5,1.14686717741857,2.22892549506308,-1.5,1.34482987590276,1.95483190041118,-1.5,1.04686717741857
+        ,2.12892549506308,-1.01,1.14686717741857,2.22892549506308,-1.5,1.13584728253275,2.4138322696195,-1.5,1.5,2.56189556902319
+        ,-1.05875906031313,1.5,2.13277569460084,-1.5,1.5,2.56189556902319,-1.05875906031313,1.13584728253275,2.4138322696195
+        ,-1.5,1.5,2.69192030953149,-1.5,1.5,0.15,-1.15076944555894,0.999999999999995,0.15,-1.5,1.49999999999999,0.575411963609132
+        ,-1.5,1.5,0.15,-0.5,1.5,0.15,-1.15076944555894,0.999999999999995,0.15,-1.5,0.499999999999999,0.15,-1.5,0.499999999999999
+        ,0.15,-0.849230554441064,1,0.15,-0.5,0.500000000000002,0.370256286034717,-1.5,0.999999999999995,0.15,-1.5,0.499999999999999
+        ,0.15,-1.5,0.889496516030837,0.521476858695939,-1.5,0.500000000000002,0.562848580382214,-1.16087139879101,0.889496516030837
+        ,0.521476858695939,-1.5,0.500000000000002,0.370256286034717,-1.5,0.889496516030837,0.521476858695939,-1.5,0.500000000000002
+        ,0.562848580382214,-1.16087139879101,0.500000000000002,0.834993148543597,-1.5,0.500000000000002,0.562848580382214
+        ,-1.16087139879101,0.500000000000002,0.993462171567648,-1.30391610412348,0.500000000000002,0.834993148543597,-1.5
+        ,0.500000000000002,0.8026377007374,-0.971263805092115,0.500000000000002,1.58298683865393,-0.971263805092115,0.500000000000002
+        ,1.94579381212832,-0.98271095107812,0.500000000000002,4.09610042565426,-1.23370451120942,0.500000000000002,3.92063506576414
+        ,-0.740100045888888,0.500000000000002,3.72236994040196,-0.5,0.500000000000002,4.67492181963489,-0.829247116410586
+        ,0.500000000000002,4.42375237384279,-0.5,0.718689870769852,4.70971520433421,-0.500000000000001,0.500000000000002,4.67492181963489
+        ,-0.829247116410586,0.500000000000002,4.42375237384279,-0.5,0.500000000000002,4.67492181963489,-0.829247116410586
+        ,0.718689870769852,4.70971520433421,-0.500000000000001,0.500000000000002,4.90207008913152,-0.5,0.500000000000002,4.90207008913152
+        ,-0.5,0.500000000000002,5.15,-0.672380724023926,0.500000000000002,5.15,-0.5,0.500000000000002,5.15,-0.5,0.885493256643069
+        ,5.15,-0.5,1.01656872419485,4.98592921708579,-0.5,1.05469064573712,5.15,-0.806385775655065,0.885493256643069,5.15
+        ,-0.5,1.05469064573712,5.15,-0.806385775655065,1.01656872419485,4.98592921708579,-0.5,1.22194065464742,5.15,-0.5,0.500000000000002
+        ,4.85855415595246,-0.873011922911403,0.783683363263618,5.15,-0.9238486620417,0.500000000000002,4.85855415595246,-0.873011922911403
+        ,0.500000000000002,5.15,-0.672380724023926,0.500000000000002,4.85855415595246,-0.873011922911403,0.783683363263618
+        ,5.15,-0.9238486620417,0.500000000000002,5.15,-1.16138550004255,0.500000000000002,4.33245820621429,-1.16871648399834
+        ,0.500000000000002,5.15,-1.16138550004255,0.500000000000002,4.21754043758722,-0.829247116410586,0.650000000000002
+        ,4.21754043758722,-0.989247116410585,0.500000000000002,3.92063506576414,-0.740100045888888,0.500000000000002,4.21754043758722
+        ,-0.829247116410586,0.650000000000002,4.21754043758722,-0.989247116410585,0.500000000000002,4.09610042565426,-1.23370451120942
+        ,0.500000000000002,3.92063506576414,-0.740100045888888,0.500000000000002,4.09610042565426,-1.23370451120942,0.650000000000002
+        ,4.21754043758722,-0.989247116410585,0.500000000000002,4.21754043758722,-0.829247116410586,0.500000000000002,4.12666405657543
+        ,-1.5,0.500000000000002,4.33245820621429,-1.16871648399834,1.05718862066315,4.72610476181107,-1.5,0.500000000000002
+        ,4.12666405657543,-1.5,1.05718862066315,4.72610476181107,-1.5,0.500000000000002,4.33245820621429,-1.16871648399834
+        ,0.500000000000002,4.99802541384673,-1.5,0.500000000000002,5.15,-1.5,0.500000000000002,4.99802541384673,-1.5,0.778059345352571
+        ,5.15,-1.5,0.500000000000002,4.99802541384673,-1.5,0.500000000000002,5.15,-1.5,1.05718862066315,4.72610476181107,-1.5
+        ,0.820529139198269,4.30838936274239,-1.5,0.500000000000002,4.12666405657543,-1.5,0.500000000000002,3.89068180979505
+        ,-1.5,0.645063473052885,3.97931921039906,-1.5,0.500000000000002,3.50737118991854,-1.16871648399834,0.500000000000002
+        ,3.89068180979505,-1.5,0.500000000000002,3.50737118991854,-1.16871648399834,0.645063473052885,3.97931921039906,-1.5
+        ,0.500000000000002,3.50737118991854,-1.5,0.500000000000002,3.50737118991854,-1.5,0.500000000000002,2.84226487989422
+        ,-1.17686443906673,0.500000000000002,3.50737118991854,-1.16871648399834,0.500000000000002,3.1998797651463,-1.5,0.82801257175366
+        ,2.97095236885754,-1.5,0.500000000000002,2.84226487989422,-1.17686443906673,0.500000000000002,3.1998797651463,-1.5
+        ,0.500000000000002,2.84226487989422,-1.17686443906673,0.82801257175366,2.97095236885754,-1.5,0.500000000000002,2.50096822116411
+        ,-1.5,0.500000000000002,2.13354246679852,-1.5,0.500000000000002,2.50096822116411,-1.5,0.500000000000002,3.89068180979505
+        ,-1.5,0.805894640231263,1.80349933465093,-1.5,0.500000000000002,1.94579381212832,-0.98271095107812,0.500000000000002
+        ,2.13354246679852,-1.5,0.500000000000002,1.94579381212832,-0.98271095107812,0.805894640231263,1.80349933465093,-1.5
+        ,0.500000000000002,1.5199862970872,-1.5,0.500000000000002,1.5199862970872,-1.5,1.04,1.09346217156765,-1.20391610412347
+        ,0.500000000000002,1.58298683865393,-0.971263805092115,0.500000000000002,0.993462171567648,-1.30391610412348,1.04
+        ,1.09346217156765,-1.20391610412347,0.500000000000002,0.8026377007374,-0.971263805092115,0.500000000000002,1.58298683865393
+        ,-0.971263805092115,0.500000000000002,0.8026377007374,-0.971263805092115,1.04,1.09346217156765,-1.20391610412347,0.500000000000002
+        ,0.993462171567648,-1.30391610412348,0.578187629934638,0.908661649706567,-1.5,0.500000000000002,0.834993148543597
+        ,-1.5,0.578187629934638,0.908661649706567,-1.5,0.873592426937583,1.18536351364115,-1.18,1.14686717741857,0.59385445113342
+        ,-1.5,0.873592426937583,1.18536351364115,-1.18,0.578187629934638,0.908661649706567,-1.5,0.773592426937582,1.46536351364115
+        ,-1.5,1.14686717741857,0.59385445113342,-1.5,0.873592426937583,1.18536351364115,-1.18,0.773592426937582,1.46536351364115
+        ,-1.5,0.820529139198269,4.30838936274239,-1.5,1.07124420301517,4.4574335695584,-1.03,1.32424802363421,3.99604971882477
+        ,-1.5,1.07124420301517,4.4574335695584,-1.03,0.820529139198269,4.30838936274239,-1.5,1.22124420301517,4.6074335695584
+        ,-1.5,1.32424802363421,3.99604971882477,-1.5,1.07124420301517,4.4574335695584,-1.03,1.22124420301517,4.6074335695584
+        ,-1.5,0.945309354262873,5.15,-1.19361422434493,0.983431275805149,4.98592921708579,-1.5,0.778059345352571,5.15,-1.5
+        ,0.983431275805149,4.98592921708579,-1.5,0.945309354262873,5.15,-1.19361422434493,1.11450674335693,5.15,-1.5,0.703996852538955
+        ,2.8393674217438,-0.731263805092114,0.500000000000002,3.01725679854512,-0.758478715715603,0.500000000000002,2.7393674217438
+        ,-0.971263805092115,0.499999999999999,0.15,-1.5,0.500000000000002,0.370256286034717,-1.5,0.499999999999999,0.15,-0.849230554441064
+        ,1,0.15,-0.5,0.500000000000002,0.575411963609132,-0.5,1.02146910615433,3.40207839710819,-1.5,1.05963614219356,3.1217204118139
+        ,-1.5,0.760948796558335,3.57258191930044,-1.15,0.660948796558334,3.67258191930044,-1.5,0.760948796558335,3.57258191930044
+        ,-1.15,1.05963614219356,3.1217204118139,-1.5,0.571615649910442,3.28268502407045,-1.5,0.760948796558335,3.57258191930044
+        ,-1.15,0.571615649910442,3.28268502407045,-1.5,0.660948796558334,3.67258191930044,-1.5,1.5,3.27392272301577,-1.27887765101966
+        ,1.02146910615433,3.40207839710819,-1.5,1.5,3.72236994040196,-1.5,1.02146910615433,3.40207839710819,-1.5,1.5,3.27392272301577
+        ,-1.27887765101966,1.5,3.05695786217109,-1.5,1.5,3.72236994040196,-1.5,1.5,0.834993148543597,-0.5,1.42181237006536
+        ,0.908661649706567,-0.5,1.12640757306241,1.18536351364115,-0.82,1.42181237006536,0.908661649706567,-0.5,1.22640757306241
+        ,1.46536351364115,-0.5,1.42181237006536,0.908661649706567,-0.5,1.12640757306241,1.18536351364115,-0.82,0.853132822581428
+        ,0.59385445113342,-0.5,0.853132822581428,0.59385445113342,-0.5,1.12640757306241,1.18536351364115,-0.82,1.22640757306241
+        ,1.46536351364115,-0.5,1.5,2.84226487989422,-0.823135560933274,1.17198742824634,2.97095236885754,-0.5,1.5,2.50096822116411
+        ,-0.5,1.17198742824634,2.97095236885754,-0.5,1.5,2.84226487989422,-0.823135560933274,1.5,3.1998797651463,-0.5
+        PolygonVertexIndex: 0,1,-3,3,4,-6,6,7,-9,9,10,-12,9,12,-11,13,12,-10,14,12,-14,12,14,-16,16,17,-19,17,16,-20,19,16,-21,20,16,-22,22,23
+        ,-25,25,26,-28,28,29,-31,29,28,-32,28,32,-32,28,13,-33,13,28,-15,33,34,-36,36,37,-39,39,40,-42,9,42,-33,42,9,-44,43
+        ,9,-45,9,11,-45,44,11,-46,44,45,-47,46,45,-48,45,48,-48,48,45,-11,10,49,-49,50,49,-11,51,49,-51,52,49,-52,53,49,-53
+        ,49,53,-55,55,56,-58,56,55,-59,58,55,-60,60,61,-63,63,64,-66,52,66,-68,66,52,-69,68,52,-52,69,70,-72,72,73,-75,75
+        ,76,-78,78,68,-51,68,78,-67,79,80,-82,82,83,-85,78,85,-87,85,78,-88,87,78,-13,10,12,-79,10,78,-51,88,87,-13,87,88
+        ,-90,90,91,-93,93,91,-91,94,91,-94,94,95,-92,96,95,-95,96,97,-96,98,97,-97,99,97,-99,99,100,-98,99,101,-101,102,101
+        ,-100,103,101,-103,103,104,-102,103,105,-105,106,105,-104,107,105,-107,107,108,-106,108,107,-59,109,110,-112,110,109
+        ,-113,113,114,-116,116,117,-119,119,120,-113,120,119,-122,103,122,-124,122,103,-103,124,125,-127,127,128,-130,130
+        ,131,-133,123,122,-100,123,99,-99,133,134,-136,136,137,-139,139,120,-141,120,139,-142,142,143,-145,145,146,-148,139
+        ,148,-150,140,148,-140,148,140,-151,151,152,-154,154,155,-157,157,158,-160,157,93,-159,93,157,-95,160,161,-163,163
+        ,164,-166,166,167,-169,90,92,-159,158,92,-18,169,170,-172,172,173,-175,158,17,-160,159,17,-20,159,19,-176,175,19,-177
+        ,177,178,-180,180,181,-183,183,184,-186,20,21,-177,176,21,-187,186,21,-188,187,21,-189,187,188,-190,189,188,-191,190
+        ,188,-192,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,-208,208,209,-211,209,208,-212,212,213,-215
+        ,212,42,-214,215,42,-213,215,32,-43,31,32,-216,216,217,-219,219,220,-222,222,223,-225,225,226,-228,228,229,-231,228
+        ,231,-230,232,231,-229,232,233,-232,234,233,-233,234,235,-234,236,235,-235,236,237,-236,238,237,-237,239,237,-239
+        ,239,240,-238,241,240,-240,241,242,-241,243,242,-242,244,242,-244,244,245,-243,244,246,-246,247,246,-245,248,246,-248
+        ,248,249,-247,248,250,-250,251,250,-249,252,250,-252,252,253,-251,253,252,-255,255,256,-258,256,255,-50,48,49,-256
+        ,48,255,-259,258,255,-260,260,261,-263,263,264,-266,248,266,-268,266,248,-248,268,269,-271,271,272,-274,274,275,-277
+        ,267,266,-245,267,244,-244,277,278,-280,280,281,-283,283,284,-286,286,287,288,289,290,-292,292,293,-295,293,292,-255
+        ,254,292,-296,296,297,-299,299,300,-302,302,303,-305,303,302,-306,110,305,-303,110,120,-306,112,120,-111,305,120,-142
+        ,305,141,-307,141,307,-307,141,308,-308,149,308,-142,149,309,-309,149,148,-310,310,309,-149,310,311,-310,311,310,-313
+        ,313,314,-316,316,317,-319,319,320,-312,320,319,-322,189,322,-188,322,189,-324,324,325,-327,327,328,-330,311,320,-331
+        ,331,332,-334,334,335,-337,337,330,-339,308,330,-338,339,330,-309,311,330,-340,309,311,-340,340,341,-343,343,344,-346
+        ,346,347,-349,308,337,-350,350,351,-353,353,354,-356,337,356,-358,356,337,-339,358,359,-361,209,359,-359,211,359,-210
+        ,211,361,-360,230,361,-212,229,361,-231,362,361,-230,362,363,-362,231,363,-363,233,363,-232,363,233,-365,365,366,-368
+        ,368,369,-371,371,372,-374,372,371,-375,375,376,-378,378,379,-381,381,372,-383,307,372,-382,372,307,-374,307,308,-374
+        ,373,308,-384,383,308,-350,384,385,-387,387,388,-390,303,307,-391,307,303,-307,391,392,-394,394,395,-397,397,398,-400
+        ,304,303,-391,400,401,-250,253,401,-401,253,295,-402,254,295,-254,402,403,-405,405,406,-408,400,249,-251,408,409,-411
+        ,411,412,-414,414,415,-417,417,418,-420,420,421,-423,423,424,-426,193,195,-195,175,176,-187,426,427,-429,110,302,-430
+        ,429,302,-431,431,432,-434,238,434,-240,434,238,-235,435,436,-438,438,439,-441,441,442,-444,434,234,-233,444,445,-447
+        ,447,448,-450,43,44,-451,58,59,-109,108,59,-452,108,451,-453,452,451,-105,452,104,-106,453,454,-456,456,457,-459,459
+        ,460,-462,462,463,-465,465,466,-468
+        GeometryVersion: 124
+        LayerElementNormal: 0 {
+            Version: 101
+            Name: ""
+            MappingInformationType: "ByVertice"
+            ReferenceInformationType: "Direct"
+            Normals: 0.332836502804283,-0.503649133598065,0.797218547593402,0.332836502804283,-0.503649133598065,0.797218547593402
+             ,0.332836502804283,-0.503649133598065,0.797218547593402,0.423554769040257,0.905704125542918,0.0173607199675675
+             ,0.423554769040257,0.905704125542918,0.0173607199675675,0.423554769040257,0.905704125542918,0.0173607199675675
+             ,0.536701186352379,-0.512977663469582,-0.669929662986524,0.536701186352379,-0.512977663469582,-0.669929662986524
+             ,0.536701186352379,-0.512977663469582,-0.669929662986524,1,-6.6760664711762e-017,-4.40199315583793e-016,1,-6.6760664711762e-017
+             ,-4.40199315583793e-016,1,-6.6760664711762e-017,-4.40199315583793e-016,1,-6.6760664711762e-017,-4.40199315583793e-016
+             ,1,-6.6760664711762e-017,-4.40199315583793e-016,1,-6.6760664711762e-017,-4.40199315583793e-016,1,-6.6760664711762e-017
+             ,-4.40199315583793e-016,-3.17880174330749e-016,-4.92525625753715e-017,1,-3.17880174330749e-016,-4.92525625753715e-017
+             ,1,-3.17880174330749e-016,-4.92525625753715e-017,1,-3.17880174330749e-016,-4.92525625753715e-017,1,-3.17880174330749e-016
+             ,-4.92525625753715e-017,1,-3.17880174330749e-016,-4.92525625753715e-017,1,0.674597623942502,0.627048040455319
+             ,0.38952381279233,0.674597623942502,0.627048040455319,0.38952381279233,0.674597623942502,0.627048040455319,0.38952381279233
+             ,0.212495833594647,-0.435422096596534,0.874787470475197,0.212495833594647,-0.435422096596534,0.874787470475197
+             ,0.212495833594647,-0.435422096596534,0.874787470475197,1,-6.6760664711762e-017,-4.40199315583793e-016,1,-6.6760664711762e-017
+             ,-4.40199315583793e-016,1,-6.6760664711762e-017,-4.40199315583793e-016,1,-6.6760664711762e-017,-4.40199315583793e-016
+             ,1,-6.6760664711762e-017,-4.40199315583793e-016,-0.293256318239812,-0.915650281224741,-0.274927798349825,-0.293256318239812
+             ,-0.915650281224741,-0.274927798349825,-0.293256318239812,-0.915650281224741,-0.274927798349825,0.794583595865508
+             ,0.57208420433908,-0.203363153809044,0.794583595865508,0.57208420433908,-0.203363153809044,0.794583595865508
+             ,0.57208420433908,-0.203363153809044,0.714624531276888,-0.201158420952968,0.669960498072085,0.714624531276888
+             ,-0.201158420952968,0.669960498072085,0.714624531276888,-0.201158420952968,0.669960498072085,1,-6.6760664711762e-017
+             ,-4.40199315583793e-016,1,-6.6760664711762e-017,-4.40199315583793e-016,1,-6.6760664711762e-017,-4.40199315583793e-016
+             ,1,-6.6760664711762e-017,-4.40199315583793e-016,1,-6.6760664711762e-017,-4.40199315583793e-016,1,-6.6760664711762e-017
+             ,-4.40199315583793e-016,1,-6.6760664711762e-017,-4.40199315583793e-016,1,-6.6760664711762e-017,-4.40199315583793e-016
+             ,1,-6.6760664711762e-017,-4.40199315583793e-016,1,-6.6760664711762e-017,-4.40199315583793e-016,1,-6.6760664711762e-017
+             ,-4.40199315583793e-016,1,-6.6760664711762e-017,-4.40199315583793e-016,1,-6.6760664711762e-017,-4.40199315583793e-016
+             ,-3.17880174330749e-016,-4.92525625753715e-017,1,-3.17880174330749e-016,-4.92525625753715e-017,1,-3.17880174330749e-016
+             ,-4.92525625753715e-017,1,-3.17880174330749e-016,-4.92525625753715e-017,1,-3.17880174330749e-016,-4.92525625753715e-017
+             ,1,0.319866791289726,0.823876001848124,0.467882003723977,0.319866791289726,0.823876001848124,0.467882003723977
+             ,0.319866791289726,0.823876001848124,0.467882003723977,0.53169201828645,-0.660546821425467,0.530076875929514
+             ,0.53169201828645,-0.660546821425467,0.530076875929514,0.53169201828645,-0.660546821425467,0.530076875929514
+             ,1,-6.6760664711762e-017,-4.40199315583793e-016,1,-6.6760664711762e-017,-4.40199315583793e-016,1,-6.6760664711762e-017
+             ,-4.40199315583793e-016,0.245069694224383,0.84096221697156,-0.482414131840109,0.245069694224383,0.84096221697156
+             ,-0.482414131840109,0.245069694224383,0.84096221697156,-0.482414131840109,0.395676850140682,5.87378327332506e-018
+             ,0.918389803004557,0.395676850140682,5.87378327332506e-018,0.918389803004557,0.395676850140682,5.87378327332506e-018
+             ,0.918389803004557,0.0701015823063333,-0.490224170708552,-0.868772715162752,0.0701015823063333,-0.490224170708552
+             ,-0.868772715162752,0.0701015823063333,-0.490224170708552,-0.868772715162752,1,-6.6760664711762e-017,-4.40199315583793e-016
+             ,0.581936234991301,0.627876505327123,0.516837800922445,0.581936234991301,0.627876505327123,0.516837800922445
+             ,0.581936234991301,0.627876505327123,0.516837800922445,0.712077117814434,-0.659976083590668,0.239536526177975
+             ,0.712077117814434,-0.659976083590668,0.239536526177975,0.712077117814434,-0.659976083590668,0.239536526177975
+             ,1,-6.6760664711762e-017,-4.40199315583793e-016,1,-6.6760664711762e-017,-4.40199315583793e-016,1,-6.6760664711762e-017
+             ,-4.40199315583793e-016,1,-6.6760664711762e-017,-4.40199315583793e-016,1,-6.6760664711762e-017,-4.40199315583793e-016
+             ,-3.17880174330749e-016,-4.92525625753715e-017,1,-3.17880174330749e-016,-4.92525625753715e-017,1,-3.17880174330749e-016
+             ,-4.92525625753715e-017,1,-3.17880174330749e-016,-4.92525625753715e-017,1,-3.17880174330749e-016,-4.92525625753715e-017
+             ,1,-3.17880174330749e-016,-4.92525625753715e-017,1,-3.17880174330749e-016,-4.92525625753715e-017,1,-3.17880174330749e-016
+             ,-4.92525625753715e-017,1,-3.17880174330749e-016,-4.92525625753715e-017,1,-3.17880174330749e-016,-4.92525625753715e-017
+             ,1,-3.17880174330749e-016,-4.92525625753715e-017,1,-3.17880174330749e-016,-4.92525625753715e-017,1,-3.17880174330749e-016
+             ,-4.92525625753715e-017,1,-3.17880174330749e-016,-4.92525625753715e-017,1,-3.17880174330749e-016,-4.92525625753715e-017
+             ,1,-3.17880174330749e-016,-4.92525625753715e-017,1,-3.17880174330749e-016,-4.92525625753715e-017,1,-3.17880174330749e-016
+             ,-4.92525625753715e-017,1,-3.17880174330749e-016,-4.92525625753715e-017,1,-1,1.68995599105041e-016,1.09175730883879e-016
+             ,-1,1.68995599105041e-016,1.09175730883879e-016,-1,1.68995599105041e-016,1.09175730883879e-016,-1,1.68995599105041e-016
+             ,1.09175730883879e-016,-0.554138240985333,0.403498257895377,0.728093377083651,-0.554138240985333,0.403498257895377
+             ,0.728093377083651,-0.554138240985333,0.403498257895377,0.728093377083651,-0.793207954393645,-0.560504894537951
+             ,0.238023957377509,-0.793207954393645,-0.560504894537951,0.238023957377509,-0.793207954393645,-0.560504894537951
+             ,0.238023957377509,-1,1.68995599105041e-016,1.09175730883879e-016,-1,1.68995599105041e-016,1.09175730883879e-016
+             ,-1,1.68995599105041e-016,1.09175730883879e-016,-3.17880174330749e-016,-4.92525625753715e-017,1,-3.17880174330749e-016
+             ,-4.92525625753715e-017,1,0.367191203691531,0.783312439545858,0.501589714791164,0.367191203691531,0.783312439545858
+             ,0.501589714791164,0.367191203691531,0.783312439545858,0.501589714791164,-0.933276636806276,-0.337987399740437
+             ,-0.121487599401192,-0.933276636806276,-0.337987399740437,-0.121487599401192,-0.933276636806276,-0.337987399740437
+             ,-0.121487599401192,0.779639741170963,-0.563090820140222,0.274026645165549,0.779639741170963,-0.563090820140222
+             ,0.274026645165549,0.779639741170963,-0.563090820140222,0.274026645165549,-0.484133128224293,0.627270129677951
+             ,0.610038768087379,-0.484133128224293,0.627270129677951,0.610038768087379,-0.484133128224293,0.627270129677951
+             ,0.610038768087379,-0.590934460783707,-0.773821088485252,0.228029353535395,-0.590934460783707,-0.773821088485252
+             ,0.228029353535395,-0.590934460783707,-0.773821088485252,0.228029353535395,-1,1.68995599105041e-016,1.09175730883879e-016
+             ,-1,1.68995599105041e-016,1.09175730883879e-016,-1,1.68995599105041e-016,1.09175730883879e-016,-0.423554769040257
+             ,0.905704125542918,-0.0173607199675678,-0.423554769040257,0.905704125542918,-0.0173607199675678,-0.423554769040257
+             ,0.905704125542918,-0.0173607199675678,-0.332836502804283,-0.503649133598065,-0.797218547593402,-0.332836502804283
+             ,-0.503649133598065,-0.797218547593402,-0.332836502804283,-0.503649133598065,-0.797218547593402,-1,1.68995599105041e-016
+             ,1.09175730883879e-016,-1,1.68995599105041e-016,1.09175730883879e-016,-1,1.68995599105041e-016,1.09175730883879e-016
+             ,-0.457701078017579,0.634630755940956,0.622698584224628,-0.457701078017579,0.634630755940956,0.622698584224628
+             ,-0.457701078017579,0.634630755940956,0.622698584224628,-0.283830992116284,-0.424057085497043,0.860009044228047
+             ,-0.283830992116284,-0.424057085497043,0.860009044228047,-0.283830992116284,-0.424057085497043,0.860009044228047
+             ,-3.17880174330749e-016,-4.92525625753715e-017,1,-3.17880174330749e-016,-4.92525625753715e-017,1,-3.17880174330749e-016
+             ,-4.92525625753715e-017,1,0.808439622271515,-0.585110127916587,-0.0638084269585524,0.808439622271515,-0.585110127916587
+             ,-0.0638084269585524,0.808439622271515,-0.585110127916587,-0.0638084269585524,-0.226410078734448,0.686441302425772
+             ,0.691040385629863,-0.226410078734448,0.686441302425772,0.691040385629863,-0.226410078734448,0.686441302425772
+             ,0.691040385629863,-0.922208958426754,-0.211296445627095,0.323858686872529,-0.922208958426754,-0.211296445627095
+             ,0.323858686872529,-0.922208958426754,-0.211296445627095,0.323858686872529,0.95586510281345,0.29380589718968
+             ,4.44083778769357e-017,0.95586510281345,0.29380589718968,4.44083778769357e-017,0.95586510281345,0.29380589718968
+             ,4.44083778769357e-017,-0.371026849760895,-0.607220462868041,0.702582654376571,-0.371026849760895,-0.607220462868041
+             ,0.702582654376571,-0.371026849760895,-0.607220462868041,0.702582654376571,-3.17880174330749e-016,-4.92525625753715e-017
+             ,1,-3.17880174330749e-016,-4.92525625753715e-017,1,0.925508573797621,-0.155926459297944,0.345138840349649,0.925508573797621
+             ,-0.155926459297944,0.345138840349649,0.925508573797621,-0.155926459297944,0.345138840349649,-0.461628278511764
+             ,0.74448084322387,0.482335574627189,-0.461628278511764,0.74448084322387,0.482335574627189,-0.461628278511764
+             ,0.74448084322387,0.482335574627189,-0.596832944573512,-0.799747816616121,0.0647600655455123,-0.596832944573512
+             ,-0.799747816616121,0.0647600655455123,-0.596832944573512,-0.799747816616121,0.0647600655455123,-3.17880174330749e-016
+             ,-4.92525625753715e-017,1,-3.17880174330749e-016,-4.92525625753715e-017,1,-3.17880174330749e-016,-4.92525625753715e-017
+             ,1,-3.17880174330749e-016,-4.92525625753715e-017,1,-3.17880174330749e-016,-4.92525625753715e-017,1,-3.17880174330749e-016
+             ,-4.92525625753715e-017,1,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0,0,1,-0
+             ,0,1,-0,0,1,-0,0,1,-0,0,1,-0,4.56794419326294e-016,-3.32191611674016e-017,-1,4.56794419326294e-016,-3.32191611674016e-017
+             ,-1,4.56794419326294e-016,-3.32191611674016e-017,-1,4.56794419326294e-016,-3.32191611674016e-017,-1,1,-6.6760664711762e-017
+             ,-4.40199315583793e-016,1,-6.6760664711762e-017,-4.40199315583793e-016,1,-6.6760664711762e-017,-4.40199315583793e-016
+             ,1,-6.6760664711762e-017,-4.40199315583793e-016,0.511466811473913,0.604390949195497,-0.610829993771815,0.511466811473913
+             ,0.604390949195497,-0.610829993771815,0.511466811473913,0.604390949195497,-0.610829993771815,0.589693664944815
+             ,0.457950260315466,0.665239010131659,0.589693664944815,0.457950260315466,0.665239010131659,0.589693664944815
+             ,0.457950260315466,0.665239010131659,0.586434723673777,-0.666722522125223,-0.459973252875254,0.586434723673777
+             ,-0.666722522125223,-0.459973252875254,0.586434723673777,-0.666722522125223,-0.459973252875254,0.720713825375415
+             ,0.551165384195349,-0.420462009196467,0.720713825375415,0.551165384195349,-0.420462009196467,0.720713825375415
+             ,0.551165384195349,-0.420462009196467,4.56794419326294e-016,-3.32191611674016e-017,-1,4.56794419326294e-016,-3.32191611674016e-017
+             ,-1,4.56794419326294e-016,-3.32191611674016e-017,-1,4.56794419326294e-016,-3.32191611674016e-017,-1,4.56794419326294e-016
+             ,-3.32191611674016e-017,-1,4.56794419326294e-016,-3.32191611674016e-017,-1,4.56794419326294e-016,-3.32191611674016e-017
+             ,-1,4.56794419326294e-016,-3.32191611674016e-017,-1,4.56794419326294e-016,-3.32191611674016e-017,-1,4.56794419326294e-016
+             ,-3.32191611674016e-017,-1,4.56794419326294e-016,-3.32191611674016e-017,-1,4.56794419326294e-016,-3.32191611674016e-017
+             ,-1,4.56794419326294e-016,-3.32191611674016e-017,-1,4.56794419326294e-016,-3.32191611674016e-017,-1,4.56794419326294e-016
+             ,-3.32191611674016e-017,-1,4.56794419326294e-016,-3.32191611674016e-017,-1,4.56794419326294e-016,-3.32191611674016e-017
+             ,-1,4.56794419326294e-016,-3.32191611674016e-017,-1,4.56794419326294e-016,-3.32191611674016e-017,-1,4.56794419326294e-016
+             ,-3.32191611674016e-017,-1,4.56794419326294e-016,-3.32191611674016e-017,-1,4.56794419326294e-016,-3.32191611674016e-017
+             ,-1,4.56794419326294e-016,-3.32191611674016e-017,-1,4.56794419326294e-016,-3.32191611674016e-017,-1,4.56794419326294e-016
+             ,-3.32191611674016e-017,-1,4.56794419326294e-016,-3.32191611674016e-017,-1,4.56794419326294e-016,-3.32191611674016e-017
+             ,-1,1,-6.6760664711762e-017,-4.40199315583793e-016,1,-6.6760664711762e-017,-4.40199315583793e-016,1,-6.6760664711762e-017
+             ,-4.40199315583793e-016,1,-6.6760664711762e-017,-4.40199315583793e-016,1,-6.6760664711762e-017,-4.40199315583793e-016
+             ,0.793207954393645,-0.560504894537951,-0.238023957377509,0.793207954393645,-0.560504894537951,-0.238023957377509
+             ,0.793207954393645,-0.560504894537951,-0.238023957377509,0.554138240985333,0.403498257895377,-0.728093377083652
+             ,0.554138240985333,0.403498257895377,-0.728093377083652,0.554138240985333,0.403498257895377,-0.728093377083652
+             ,4.56794419326294e-016,-3.32191611674016e-017,-1,4.56794419326294e-016,-3.32191611674016e-017,-1,-0.367191203691531
+             ,0.783312439545858,-0.501589714791164,-0.367191203691531,0.783312439545858,-0.501589714791164,-0.367191203691531
+             ,0.783312439545858,-0.501589714791164,0.933276636806276,-0.337987399740437,0.121487599401192,0.933276636806276
+             ,-0.337987399740437,0.121487599401192,0.933276636806276,-0.337987399740437,0.121487599401192,-0.779639741170964
+             ,-0.563090820140222,-0.274026645165548,-0.779639741170964,-0.563090820140222,-0.274026645165548,-0.779639741170964
+             ,-0.563090820140222,-0.274026645165548,0.484133128224292,0.627270129677951,-0.610038768087379,0.484133128224292
+             ,0.627270129677951,-0.610038768087379,0.484133128224292,0.627270129677951,-0.610038768087379,0.590934460783706
+             ,-0.773821088485252,-0.228029353535395,0.590934460783706,-0.773821088485252,-0.228029353535395,0.590934460783706
+             ,-0.773821088485252,-0.228029353535395,0.475048778690288,-0.558339702837744,-0.680136334935817,0.475048778690288
+             ,-0.558339702837744,-0.680136334935817,0.475048778690288,-0.558339702837744,-0.680136334935817,0,1,-0,0,1,-0
+             ,0,1,-0,0,1,-0,0,1,-0,0,1,-0,4.56794419326294e-016,-3.32191611674016e-017,-1,4.56794419326294e-016,-3.32191611674016e-017
+             ,-1,4.56794419326294e-016,-3.32191611674016e-017,-1,4.56794419326294e-016,-3.32191611674016e-017,-1,-0.319866791289726
+             ,0.823876001848124,-0.467882003723977,-0.319866791289726,0.823876001848124,-0.467882003723977,-0.319866791289726
+             ,0.823876001848124,-0.467882003723977,-0.53169201828645,-0.660546821425467,-0.530076875929514,-0.53169201828645
+             ,-0.660546821425467,-0.530076875929514,-0.53169201828645,-0.660546821425467,-0.530076875929514,-1,1.68995599105041e-016
+             ,1.09175730883879e-016,-1,1.68995599105041e-016,1.09175730883879e-016,-1,1.68995599105041e-016,1.09175730883879e-016
+             ,-1,1.68995599105041e-016,1.09175730883879e-016,-1,1.68995599105041e-016,1.09175730883879e-016,-1,1.68995599105041e-016
+             ,1.09175730883879e-016,-1,1.68995599105041e-016,1.09175730883879e-016,-1,1.68995599105041e-016,1.09175730883879e-016
+             ,-1,1.68995599105041e-016,1.09175730883879e-016,-1,1.68995599105041e-016,1.09175730883879e-016,-1,1.68995599105041e-016
+             ,1.09175730883879e-016,-0.720713825375415,0.551165384195349,0.420462009196466,-0.720713825375415,0.551165384195349
+             ,0.420462009196466,-0.720713825375415,0.551165384195349,0.420462009196466,-0.586434723673777,-0.666722522125223
+             ,0.459973252875253,-0.586434723673777,-0.666722522125223,0.459973252875253,-0.586434723673777,-0.666722522125223
+             ,0.459973252875253,-1,1.68995599105041e-016,1.09175730883879e-016,-1,1.68995599105041e-016,1.09175730883879e-016
+             ,-1,1.68995599105041e-016,1.09175730883879e-016,-3.17880174330749e-016,-4.92525625753715e-017,1,-3.17880174330749e-016
+             ,-4.92525625753715e-017,1,0.717366822231829,0.573101377100972,0.396156097928553,0.717366822231829,0.573101377100972
+             ,0.396156097928553,0.717366822231829,0.573101377100972,0.396156097928553,-0.590816038936575,0.739540753713552
+             ,0.322514932572257,-0.590816038936575,0.739540753713552,0.322514932572257,-0.590816038936575,0.739540753713552
+             ,0.322514932572257,-1,1.68995599105041e-016,1.09175730883879e-016,-0.589693664944814,0.457950260315466,-0.66523901013166
+             ,-0.589693664944814,0.457950260315466,-0.66523901013166,-0.589693664944814,0.457950260315466,-0.66523901013166
+             ,-0.511466811473913,0.604390949195497,0.610829993771815,-0.511466811473913,0.604390949195497,0.610829993771815
+             ,-0.511466811473913,0.604390949195497,0.610829993771815,-1,1.68995599105041e-016,1.09175730883879e-016,-1,1.68995599105041e-016
+             ,1.09175730883879e-016,-1,1.68995599105041e-016,1.09175730883879e-016,-0.714624531276888,-0.201158420952968,-0.669960498072086
+             ,-0.714624531276888,-0.201158420952968,-0.669960498072086,-0.714624531276888,-0.201158420952968,-0.669960498072086
+             ,-0.794583595865508,0.57208420433908,0.203363153809043,-0.794583595865508,0.57208420433908,0.203363153809043
+             ,-0.794583595865508,0.57208420433908,0.203363153809043,0.293256318239812,-0.915650281224741,0.274927798349825
+             ,0.293256318239812,-0.915650281224741,0.274927798349825,0.293256318239812,-0.915650281224741,0.274927798349825
+             ,-1,1.68995599105041e-016,1.09175730883879e-016,-0.674597623942502,0.62704804045532,-0.38952381279233,-0.674597623942502
+             ,0.62704804045532,-0.38952381279233,-0.674597623942502,0.62704804045532,-0.38952381279233,-0.212495833594646
+             ,-0.435422096596534,-0.874787470475198,-0.212495833594646,-0.435422096596534,-0.874787470475198,-0.212495833594646
+             ,-0.435422096596534,-0.874787470475198,-1,1.68995599105041e-016,1.09175730883879e-016,-1,1.68995599105041e-016
+             ,1.09175730883879e-016,4.56794419326294e-016,-3.32191611674016e-017,-1,4.56794419326294e-016,-3.32191611674016e-017
+             ,-1,4.56794419326294e-016,-3.32191611674016e-017,-1,4.56794419326294e-016,-3.32191611674016e-017,-1,4.56794419326294e-016
+             ,-3.32191611674016e-017,-1,4.56794419326294e-016,-3.32191611674016e-017,-1,4.56794419326294e-016,-3.32191611674016e-017
+             ,-1,0.371026849760896,-0.607220462868041,-0.702582654376571,0.371026849760896,-0.607220462868041,-0.702582654376571
+             ,0.371026849760896,-0.607220462868041,-0.702582654376571,-0.95586510281345,0.29380589718968,-0,-0.95586510281345
+             ,0.29380589718968,-0,-0.95586510281345,0.29380589718968,-0,-1,1.68995599105041e-016,1.09175730883879e-016,-1
+             ,1.68995599105041e-016,1.09175730883879e-016,-1,1.68995599105041e-016,1.09175730883879e-016,-1,1.68995599105041e-016
+             ,1.09175730883879e-016,-0.423810349236719,-0.607245462284488,-0.672039981262089,-0.423810349236719,-0.607245462284488
+             ,-0.672039981262089,-0.423810349236719,-0.607245462284488,-0.672039981262089,-0.701778950743127,0.48978740999152
+             ,-0.517314795175698,-0.701778950743127,0.48978740999152,-0.517314795175698,-0.701778950743127,0.48978740999152
+             ,-0.517314795175698,-1,1.68995599105041e-016,1.09175730883879e-016,-1,1.68995599105041e-016,1.09175730883879e-016
+             ,-1,1.68995599105041e-016,1.09175730883879e-016,-0.712077117814435,-0.659976083590668,-0.239536526177975,-0.712077117814435
+             ,-0.659976083590668,-0.239536526177975,-0.712077117814435,-0.659976083590668,-0.239536526177975,-0.5819362349913
+             ,0.627876505327124,-0.516837800922445,-0.5819362349913,0.627876505327124,-0.516837800922445,-0.5819362349913
+             ,0.627876505327124,-0.516837800922445,-1,1.68995599105041e-016,1.09175730883879e-016,-0.070101582306334,-0.490224170708552
+             ,0.868772715162752,-0.070101582306334,-0.490224170708552,0.868772715162752,-0.070101582306334,-0.490224170708552
+             ,0.868772715162752,-0.395676850140681,5.87378327332506e-018,-0.918389803004557,-0.395676850140681,5.87378327332506e-018
+             ,-0.918389803004557,-0.395676850140681,5.87378327332506e-018,-0.918389803004557,-0.245069694224383,0.84096221697156
+             ,0.482414131840109,-0.245069694224383,0.84096221697156,0.482414131840109,-0.245069694224383,0.84096221697156
+             ,0.482414131840109,4.56794419326294e-016,-3.32191611674016e-017,-1,4.56794419326294e-016,-3.32191611674016e-017
+             ,-1,0.309503948161221,0.559099556752723,-0.76916512642704,0.309503948161221,0.559099556752723,-0.76916512642704
+             ,0.309503948161221,0.559099556752723,-0.76916512642704,0.814559153850741,-0.285913837220057,-0.504724343145908
+             ,0.814559153850741,-0.285913837220057,-0.504724343145908,0.814559153850741,-0.285913837220057,-0.504724343145908
+             ,-0.917730278613852,-0.393071690812615,-0.0571470173942078,-0.917730278613852,-0.393071690812615,-0.0571470173942078
+             ,-0.917730278613852,-0.393071690812615,-0.0571470173942078,0.461628278511764,0.74448084322387,-0.482335574627189
+             ,0.461628278511764,0.74448084322387,-0.482335574627189,0.461628278511764,0.74448084322387,-0.482335574627189
+             ,0.596832944573512,-0.799747816616121,-0.0647600655455128,0.596832944573512,-0.799747816616121,-0.0647600655455128
+             ,0.596832944573512,-0.799747816616121,-0.0647600655455128,-0.925508573797621,-0.155926459297944,-0.345138840349648
+             ,-0.925508573797621,-0.155926459297944,-0.345138840349648,-0.925508573797621,-0.155926459297944,-0.345138840349648
+             ,0.590816038936575,0.739540753713552,-0.322514932572257,0.590816038936575,0.739540753713552,-0.322514932572257
+             ,0.590816038936575,0.739540753713552,-0.322514932572257,-0.717366822231829,0.573101377100972,-0.396156097928553
+             ,-0.717366822231829,0.573101377100972,-0.396156097928553,-0.717366822231829,0.573101377100972,-0.396156097928553
+             ,-0.536701186352379,-0.512977663469582,0.669929662986523,-0.536701186352379,-0.512977663469582,0.669929662986523
+             ,-0.536701186352379,-0.512977663469582,0.669929662986523,-1,1.68995599105041e-016,1.09175730883879e-016,-1,1.68995599105041e-016
+             ,1.09175730883879e-016,-0.475048778690291,-0.558339702837747,0.680136334935811,-0.475048778690291,-0.558339702837747
+             ,0.680136334935811,-0.475048778690291,-0.558339702837747,0.680136334935811,4.56794419326294e-016,-3.32191611674016e-017
+             ,-1,-0.808439622271515,-0.585110127916587,0.063808426958553,-0.808439622271515,-0.585110127916587,0.063808426958553
+             ,-0.808439622271515,-0.585110127916587,0.063808426958553,0.226410078734447,0.686441302425772,-0.691040385629863
+             ,0.226410078734447,0.686441302425772,-0.691040385629863,0.226410078734447,0.686441302425772,-0.691040385629863
+             ,0.922208958426753,-0.211296445627095,-0.323858686872529,0.922208958426753,-0.211296445627095,-0.323858686872529
+             ,0.922208958426753,-0.211296445627095,-0.323858686872529,0.283830992116284,-0.424057085497043,-0.860009044228047
+             ,0.283830992116284,-0.424057085497043,-0.860009044228047,0.283830992116284,-0.424057085497043,-0.860009044228047
+             ,0.457701078017579,0.634630755940956,-0.622698584224628,0.457701078017579,0.634630755940956,-0.622698584224628
+             ,0.457701078017579,0.634630755940956,-0.622698584224628,1,-6.6760664711762e-017,-4.40199315583793e-016,-3.17880174330749e-016
+             ,-4.92525625753715e-017,1,-3.17880174330749e-016,-4.92525625753715e-017,1,-0.814559153850741,-0.285913837220057
+             ,0.504724343145907,-0.814559153850741,-0.285913837220057,0.504724343145907,-0.814559153850741,-0.285913837220057
+             ,0.504724343145907,-0.309503948161222,0.559099556752723,0.76916512642704,-0.309503948161222,0.559099556752723
+             ,0.76916512642704,-0.309503948161222,0.559099556752723,0.76916512642704,0.917730278613852,-0.393071690812615
+             ,0.0571470173942085,0.917730278613852,-0.393071690812615,0.0571470173942085,0.917730278613852,-0.393071690812615
+             ,0.0571470173942085,0.701778950743127,0.48978740999152,0.517314795175698,0.701778950743127,0.48978740999152,0.517314795175698
+             ,0.701778950743127,0.48978740999152,0.517314795175698,0.423810349236719,-0.607245462284488,0.672039981262089
+             ,0.423810349236719,-0.607245462284488,0.672039981262089,0.423810349236719,-0.607245462284488,0.672039981262089
+             
+        }
+        LayerElementUV: 0 {
+            Version: 101
+            Name: ""
+            MappingInformationType: "ByPolygonVertex"
+            ReferenceInformationType: "IndexToDirect"
+            UV: 40.5797270353634,83.4857486673225,50.1707235447243,79.2637158501302,47.5783171789387,91.5925335823894,37.5047995197056
+             ,9.04241226542336,31.5232508072731,17.6467048076849,22.4112738462459,8.35934651864518,-5.53512016600911,113.055995028872
+             ,-12.4730174868887,121.214782096926,-17.710822567353,108.469556414741,29.9173210279966,148.450199439533,20.8163856262947
+             ,101.943599281252,29.1937513497794,112.884125926973,13.0426581103014,132.179968107029,10.4840743618341,155.358284474577
+             ,-3.11982700069536e-015,156.561577030529,-3.11982700069536e-015,147.270937393506,39.3700787401575,156.561577030529
+             ,33.6589183837448,150.760598834609,39.3700787401575,147.270937393506,6.91936914825919,151.419280268692,26.7508212914066
+             ,163.716116643401,17.4335188715297,180.161604795711,30.9816826682267,110.98047532991,8.71750959438364,130.875574319261
+             ,19.6867334516986,100.579533367424,16.9408757901346,163.978054768071,41.336225522444,146.762501396296,38.2575439129522
+             ,175.870104708432,13.0426581103014,164.663708906074,-3.11982700069536e-015,196.850393700787,-3.11982700069536e-015
+             ,190.86714227743,13.3312795258837,196.850393700787,26.4075938421029,160.139387306583,-34.5753383956194,42.716685324039
+             ,-37.5576059153322,54.6106912697717,-46.1921382773249,54.6106912697717,11.1831103533752,109.94648197597,0.395089179473771
+             ,104.117254227141,19.2215158492234,95.6947620966698,37.5576059153323,159.010422659282,48.7526148358162,147.077306649454
+             ,46.1921382773249,159.010422659282,26.4075938421029,178.146528332082,39.3700787401575,168.257967474126,30.6644744495928
+             ,122.989083583298,35.9225847458485,102.233157963047,39.3700787401575,114.447159927996,39.3700787401575,100.07560273746
+             ,21.9983882013045,94.9565184654799,25.6208443133439,2.62837262644733e-015,20.8163856262947,56.4168046714145,20.8163856262947
+             ,25.6943976668268,13.3515197326375,16.25388111741,4.32886678105136e-016,8.67150732420147,-3.11982700069536e-015
+             ,2.62837262644733e-015,39.3700787401575,8.67150732420146,19.6850393700788,-1.00811812090715e-030,39.3700787401575
+             ,-1.3163152307043e-030,1.13686837721616e-013,16.7485025042965,24.0355702350065,14.6250731770055,40.0360914436382
+             ,-0.0129007761755862,19.8419270601535,-2.88674322576822,32.5009235510861,-13.3911187569829,16.9698415155381,22.2238132256825
+             ,37.2517701652257,24.3932868533765,27.7964695716547,38.6641568941117,1.81964550721076e-014,53.9364683892597,7.53831403570614e-015
+             ,26.9682341946298,7.71983842033564,33.2071721089625,-25.6724729202163,-16.6997315830068,-10.8666808461392,4.46070557886862
+             ,-31.604099838386,-2.8153111543404,21.2446004992087,37.1441799829783,44.3936407543732,25.6943976668268,44.3936407543732
+             ,56.4168046714145,-17.1140173822906,38.7847422776611,-37.568293200782,60.8966107617496,-38.6216347418957,34.2677342552254
+             ,20.3657105874756,70.7005437845795,41.3708761237531,45.0359038181108,18.1464500785778,37.8380991686587,26.1436535868614
+             ,23.4969139298927,8.71280070682695,66.0014594696034,31.8553906094715,73.4581939759076,12.5525622071695,83.2968883273029
+             ,-1.02252543582964e-014,92.557803982839,-1.02252543582964e-014,78.0922231023039,12.7218724776879,105.994680310796
+             ,-3.11982700069536e-015,132.179968107029,-3.11982700069536e-015,120.074006501823,36.5505649641557,123.334056065766
+             ,39.3700787401575,120.074006501823,39.3700787401575,132.179968107029,17.3371597561591,116.996866606847,1.13686837721616e-013
+             ,114.447159927996,26.4561979624544,111.061116884155,1.13686837721616e-013,100.07560273746,39.3700787401575,92.557803982839
+             ,14.3367211601279,89.127254709429,13.9028670307649,81.8474604355543,39.3700787401575,78.0922231023039,27.3269826680606
+             ,65.0983990020053,20.203634689909,64.4492992770625,1.13686837721616e-013,56.0484677035507,39.3700787401575,53.9364683892597
+             ,28.598723348914,51.7859651039823,10.428622940135,41.2902260715912,1.13686837721616e-013,26.9682341946298,13.9028670307649
+             ,17.4745846902921,-2.8421709430404e-014,26.9682341946298,-13.7492344268136,2.53676373173992e-031,-2.1316282072803e-014
+             ,16.7485025042965,-13.0456568432166,50.5085002587149,8.29855064467644,40.3281912706763,-7.90082195659629,50.4030235378952
+             ,7.41411973879556e-014,24.6754060568878,-12.4952060520651,39.7270397345475,2.99735406768807,28.5958898018902
+             ,5.45294808735296e-015,46.4166008171029,-2.8421709430404e-014,56.0484677035507,-17.371690538853,94.9565184654799
+             ,-2.8421709430404e-014,78.0620352205055,6.1090600038284,71.0563740319363,1.13686837721616e-013,78.0620352205055
+             ,16.3022451720973,30.7153430693831,25.790187024653,52.3700125839234,4.92938005868851,41.3440029806891,-21.432784954104
+             ,68.1879232228019,-2.60796835976796,53.885055238686,-1.7946393251906,72.3711089190388,2.02572036185943,61.9659654814609
+             ,24.1154590955116,70.2599149460303,4.6100907201427,75.0239899719687,11.230015316166,75.0028557779258,-10.7989109604471
+             ,82.4877691934628,7.13833610190397e-014,60.7948505710014,-16.2069181709714,55.3064505490566,5.16130629550344
+             ,46.1033801435405,1.44119159480468e-014,63.3883104439539,-3.44749399430905,102.233157963047,-2.8421709430404e-014
+             ,100.07560273746,-18.5536931138628,101.943599281252,-3.44460169632261,43.2098256889144,-9.42615040875513,51.8141182311759
+             ,-18.5381273697823,42.5267599421362,-10.9192067429618,94.144397349483,-1.32821023360098,89.9223645322906,-3.92061659938653
+             ,102.25118226455,-8.70560429056473,122.989083583298,-10.1763273903781,112.884125926973,-2.8421709430404e-014
+             ,114.447159927996,15.1802287626505,106.028255505454,-5.15590648305816,99.4995316997727,7.12180246550288e-014
+             ,88.4465396100772,-2.72838289702742,107.877590769599,17.8906394498056,113.448815834468,9.54990025215669e-014
+             ,127.372633774649,18.8397989703019,128.034582563315,33.0335119465221,138.684327531513,1.13686837721616e-013,140.644485842597
+             ,-1.36414285377646,104.991756374444,11.4474010585255,126.880120511302,-2.59918175126571,131.734907130564,23.3599846395923
+             ,113.193576034829,16.4754141043098,88.7837659055127,34.7338146501774,97.4984500324086,-3.36031732179688,124.939583282837
+             ,12.1106519894956,113.262678816731,10.9453128171206,128.967534136482,13.0426581103014,114.779057497824,1.56375409261697e-015
+             ,134.21760659109,1.60399426572051e-014,114.779057497824,29.7635977143787,110.240125246672,28.7232208621045,86.8545370043636
+             ,34.813809886754,105.848036153294,1.13686837721616e-013,168.257967474126,10.974637676568,175.489510612535,2.41771492033554
+             ,150.578128345481,23.2357517890542,168.967776794243,3.83467693186895,174.946415324673,19.3259823867694,123.074189567666
+             ,-0.599187725709058,131.863130553943,4.99885984172642,104.655931275644,-16.5750479886188,86.7899523110191,2.8856917779683
+             ,77.0156239244421,1.1838672676426,96.6269616742643,8.60983743188399,179.516346627331,1.13686837721616e-013,187.089373587855
+             ,39.3700787401575,190.86714227743,20.3373513462539,190.390914058496,28.42286041919,196.850393700787,39.3700787401575
+             ,196.850393700787,39.3700787401575,39.3700787401575,24.19317887232,39.3700787401575,17.5318643410581,27.3076466277533
+             ,10.9472183209674,39.3700787401574,1.13686837721616e-013,39.3700787401575,1.13686837721616e-013,26.0387992142738
+             ,11.1686363489614,16.6869551984921,1.13686837721616e-013,6.78664267810735,1.13686837721616e-013,2.8421709430404e-014
+             ,15.1768998678374,2.1316282072803e-014,21.8382143990993,12.0624321124041,28.42286041919,2.1316282072803e-014
+             ,39.3700787401575,1.4210854715202e-014,39.3700787401575,13.3312795258838,28.2014423911962,22.6831235416654,39.3700787401575
+             ,32.5834360620502,-39.3700787401575,196.850393700787,-19.0327273939035,190.390914058496,-24.19317887232,196.850393700787
+             ,-39.3700787401575,187.089373587855,32.5834360620502,196.850393700787,39.3700787401575,187.089373587855,39.3700787401575
+             ,196.850393700787,24.684569964118,185.376147872144,-14.3382206818212,120.972122293475,-7.06000698472911,135.374557795601
+             ,-21.6269361185874,135.374557795601,36.1502764867309,174.202049397503,45.8356169990849,161.294814133002,51.0752430158936
+             ,174.202049397503,-3.51916270697501,164.293369688475,11.9938557213946,166.13129698269,6.68020633392931,176.292259935845
+             ,18.5056577551833,124.209041924327,2.9706464391843,122.567353491785,14.1670589892456,110.716193355214,-39.3700787401575
+             ,168.257967474126,-28.3954410635894,175.489510612535,-30.7602413082736,179.516346627331,-32.4507095918982,151.419280268692
+             ,-39.3700787401575,140.644485842597,-5.71116035641283,150.760598834609,-6.33656679363524,138.684327531513,-9.57028054646753e-014
+             ,132.179968107029,-2.8195137760017,123.334056065766,-9.57028054646753e-014,120.074006501823,-22.0329189839983
+             ,116.996866606847,-39.3700787401575,114.447159927996,-12.9138807777032,111.061116884155,-39.3700787401575,100.07560273746
+             ,-9.57028054646753e-014,92.557803982839,-25.0333575800297,89.127254709429,-25.4672117093925,81.8474604355543
+             ,-9.57028054646753e-014,78.0922231023039,-12.043096072097,65.0983990020053,-19.1664440502484,64.4492992770625
+             ,-39.3700787401575,56.0484677035507,-9.57028054646753e-014,53.9364683892597,-10.7713553912434,51.7859651039823
+             ,-28.9414558000226,41.2902260715912,-39.3700787401575,26.9682341946298,-25.4672117093925,17.4745846902921,-39.3700787401573
+             ,16.7485025042965,26.3244218969409,50.5085002587149,39.3700787401575,16.7485025042965,39.3700787401575,26.9682341946298
+             ,39.3700787401575,78.0620352205055,39.3700787401575,56.0484677035507,13.8980902663658,67.205503414602,29.390650386119
+             ,56.0743534819447,26.3932963184309,73.8950644971575,0.813551720808054,18.066270538991,-15.3858208804647,28.1411028062099
+             ,-7.48499892386831,2.41348532520245,-33.261018736329,71.0563740319363,-39.3700787401575,78.0620352205055,-38.7209552474856
+             ,24.0478118969376,-29.2330133949299,45.7024814114779,-50.0938203608944,34.6764718082436,22.6899617039486,79.6655166340527
+             ,41.5147782982847,65.3626486499368,42.328107332862,83.8487023302896,-48.1717368063057,48.4023536121287,-26.0819980726535
+             ,56.6963030766981,-45.5873664480224,61.4603781026364,4.86521852520977,40.3068468503005,-17.1637077514033,47.7917602658375
+             ,-6.36479679095615,26.0988416433761,6.34992924481914,94.696869121208,27.718153711294,85.4937987156919,22.5568474157905
+             ,102.778729016105,-17.6056551405585,24.3148553833129,6.40563850066449,24.3148553833129,-9.73263296407189,44.5032011617181
+             ,39.3700787401576,25.620844313344,19.6850393700786,39.3700787401575,0,39.3700787401575,0,13.7492344268136,19.6850393700788
+             ,1.4210854715202e-014,-9.57028054646753e-014,8.67150732420147,-19.6850393700786,1.30784099084258e-015,1.79840322569407e-014
+             ,1.30784099084258e-015,-15.3345085051511,14.6250731770055,-14.6840370512047,-8.48376199450952,-34.8782014346893
+             ,-11.3576044441022,-22.2192049437568,-21.8619799753168,-38.7077933717608,22.167867721202,-18.4258647220732,24.337341348896
+             ,-27.8811653156442,38.6082113896312,-26.01855900752,16.25388111741,-31.6502403198219,33.2071721089625,-39.3700787401575
+             ,26.9682341946298,-18.5536931138628,25.6943976668268,-18.5536931138628,56.4168046714145,-19.0043681526819,70.7005437845795
+             ,-28.8860043783235,155.358284474577,-9.45275771216095,148.450199439533,-2.8421709430404e-014,140.644485842597
+             ,-12.9624848980546,178.146528332082,-2.8421709430404e-014,168.257967474126,4.33859876593772,153.886627070994
+             ,-11.1964125500612,152.244938638452,2.56333161221185e-014,140.393778501882,-10.1993690409043,127.439948053729
+             ,5.31364938746539,129.277875347944,4.7799730313971e-014,139.438838301099,-2.8421709430404e-014,187.089373587855
+             ,-6.78664267810735,196.850393700787,-2.8421709430404e-014,196.850393700787,1.13686837721616e-013,196.850393700787
+             ,15.1768998678374,196.850393700787,9.83150499678456,145.819434016017,21.1163613652836,153.701803733386,7.33683380622851
+             ,153.701803733386,-0.124092488303502,150.952260456609,9.74444312999021,141.355816304246,13.6185357783802,150.952260456609
+             ,-14.6855087760395,185.376147872144,-19.426811363867,172.669899065706,-9.741470851513,159.762663801205,-4.50184483470427
+             ,172.669899065706,-9.42797113268691,154.492102308596,-2.14975743559478,168.894537810721,-16.7166865694531,168.894537810721
+             ,-26.3274206298561,164.663708906074,-26.0387992142738,196.850393700787,-12.9624848980546,160.139387306583,-18.0911473532275
+             ,158.649318938782,-6.89613843274359,146.716202928954,-9.45661499123486,158.649318938782,-17.1959926428676,137.350645296781
+             ,-27.9840138167691,131.521417547952,-9.15758714701942,123.09892541748,21.0734148729404,44.360388439528,18.0911473532275
+             ,56.2543943852608,9.45661499123486,56.2543943852608,-39.3700787401575,156.561577030529,-22.799560986846,120.014843509366
+             ,-45.063734060689,139.909942498717,-34.0945102033741,109.61390154688,-30.6098609947394,176.589773224915,-6.21451126243008
+             ,159.37421985314,-9.29319287192184,188.481823165276,-39.3700787401575,196.850393700787,-39.3700787401575,190.86714227743
+             ,-10.9472183209674,196.850393700787,-9.57028054646753e-014,190.86714227743,-9.57028054646753e-014,196.850393700787
+             ,-21.9365598686279,180.161604795711,-12.6192574487508,163.716116643401,-9.57028054646753e-014,156.561577030529
+             ,-9.57028054646753e-014,147.270937393506,13.3346114921352,142.543424135618,12.294234639861,119.15783589331,18.3848236645105
+             ,138.15133504224,-26.3274206298561,126.346218804504,-39.3700787401575,145.78476789777,-39.3700787401575,126.346218804504
+             ,-39.3700787401575,132.179968107029,-26.6482062624696,105.994680310796,-26.3274206298561,132.179968107029,-39.3700787401575
+             ,120.074006501823,-31.9240213874106,104.27860793826,-14.2147042798705,97.9018357755006,-21.0008141356488,115.622506709672
+             ,-21.450162350224,84.6661142163509,-39.3530458496642,90.4773015336403,-31.6904849954888,69.2540579968762,-39.3700787401575
+             ,78.0922231023039,-39.3700787401575,92.557803982839,-39.3700787401575,147.270937393506,-41.1551240477083,49.6586034823431
+             ,-18.0125341450638,57.1153379886473,-37.3153625473657,66.9540323400425,-14.2093614554195,47.10345745337,-37.4337875005949
+             ,39.9056528039179,-29.4365839923112,25.5644675651519,-39.3700787401575,53.9364683892597,18.9620217617113,17.9948120206942
+             ,-1.49225405678012,40.1066805047827,-2.54559559789379,13.4778039982586,-30.4903071049347,37.1441799829783,-7.34126684977018
+             ,25.6943976668268,-7.34126684977018,56.4168046714145,-8.40325192395519,27.8139500658142,6.40254015012195,48.9743872276896
+             ,-14.3348788421248,41.6983704944806,-3.07825314703301,29.8685688860853,-9.57028054646753e-014,26.9682341946298
+             ,11.8411573821917,3.70100845472749,-3.65121902293612,16.8402766156916,-8.92931080622236,-11.2477025594938,15.0100145729909
+             ,46.6670984113458,31.8449454639741,35.2987565630503,27.7928981077504,58.1709447254252,-40.8767466403101,7.0387101500678
+             ,-27.6340183095025,32.3650397967985,-39.9634054690893,44.3536512155659,18.1049003505618,81.6331787872007,-1.8202697619166
+             ,90.4221197734781,3.77777780551887,63.2149204951785,18.3183246308964,121.488859473197,37.7790643974836,111.71453108662
+             ,36.0772398871579,131.325868836442,-48.2272290050792,146.971215814925,-27.4091921363606,165.360864263686,-46.8102669935458
+             ,171.339502794117,15.5687477451,111.445684914977,25.4372833633937,101.849240762615,29.3113760117837,111.445684914977
+             ,-43.6649139851184,154.663399512123,-32.3800576166193,162.545769229491,-46.1595851756745,162.545769229491,0.57532213135821
+             ,84.6671015796585,-6.36257518952134,92.825888647712,-11.6003802699857,80.0806629655273,-39.3700787401575,7.26386537340626e-031
+             ,-39.3700787401575,8.67150732420146,-7.87302217648643,-6.2935799954415,16.1382714647364,-6.2935799954415,8.09971901615408e-014
+             ,13.8947657829638,-20.5302797698557,128.034582563315,-37.5143984866788,80.2148106969783,-24.7028545743769,102.103174833836
+             ,-38.7494373841681,106.957961453098,-1.79527342373111,79.0972744335461,-8.67984395901362,54.6874643042301,9.57855658685394
+             ,63.402148431126,20.740937549058,135.544761570119,36.2119068603504,123.867857104013,35.0465676879755,139.572712423764
+             ,-27.7761822120844,128.963992761791,-7.15715986525132,134.53521782666,-25.0477993150568,148.459035766841,6.77464583172805
+             ,71.0984624870058,-13.5614894139806,64.5697386813242,-8.40558293092242,53.5167465916287,39.3700787401575,140.644485842597
+             ,39.3700787401575,26.9682341946298,36.2918255931244,29.8685688860853,2.28040012620421,31.1697162125326,19.1153310171874
+             ,19.8013743642371,15.0632836609637,42.6735625266119,33.6683015818678,32.3385984689869,18.17592517674,45.477866629951
+             ,12.8978333934538,17.3898874547656,0.864057226901767,21.5222765252402,14.1067855577094,46.8486061719709,1.77739839812262
+             ,58.8372175907383,33.6008932880574,80.5862270400928,15.6980097886173,86.3974143573822,23.3605706427927,65.1741708206181
+             ,22.3779774966242,96.8092636992577,40.0872946041643,90.4324915364985,33.301184748386,108.15316247067
+            UVIndex: 0,1,2,3,4,5,6,7,8,9,10,11,9,12,10,13,12,9,14,12,13,12,14,15,16,17,18,17,16,19,19,16,20,20,16,21,22,23,24,25,26
+             ,27,28,29,30,29,28,31,28,32,31,28,13,32,13,28,14,33,34,35,36,37,38,39,40,41,9,42,32,42,9,43,43,9,44,9,11,44,44
+             ,11,45,44,45,46,46,45,47,45,48,47,48,45,10,10,49,48,50,49,10,51,49,50,52,49,51,53,49,52,49,53,54,55,56,57,56
+             ,55,58,58,55,59,60,61,62,63,64,65,52,66,67,66,52,68,68,52,51,69,70,71,72,73,74,75,76,77,78,68,50,68,78,66,79
+             ,80,81,82,83,84,78,85,86,85,78,87,87,78,12,10,12,78,10,78,50,88,87,12,87,88,89,90,91,92,93,91,90,94,91,93,94
+             ,95,91,96,95,94,96,97,95,98,97,96,99,97,98,99,100,97,99,101,100,102,101,99,103,101,102,103,104,101,103,105,104
+             ,106,105,103,107,105,106,107,108,105,108,107,58,109,110,111,110,109,112,113,114,115,116,117,118,119,120,112,120
+             ,119,121,103,122,123,122,103,102,124,125,126,127,128,129,130,131,132,123,122,99,123,99,98,133,134,135,136,137
+             ,138,139,120,140,120,139,141,142,143,144,145,146,147,139,148,149,140,148,139,148,140,150,151,152,153,154,155
+             ,156,157,158,159,157,93,158,93,157,94,160,161,162,163,164,165,166,167,168,90,92,158,158,92,17,169,170,171,172
+             ,173,174,158,17,159,159,17,19,159,19,175,175,19,176,177,178,179,180,181,182,183,184,185,20,21,176,176,21,186
+             ,186,21,187,187,21,188,187,188,189,189,188,190,190,188,191,192,193,194,195,196,197,198,199,200,201,202,203,204
+             ,205,206,207,208,209,210,209,208,211,212,213,214,212,42,213,215,42,212,215,32,42,31,32,215,216,217,218,219,220
+             ,221,222,223,224,225,226,227,228,229,230,228,231,229,232,231,228,232,233,231,234,233,232,234,235,233,236,235
+             ,234,236,237,235,238,237,236,239,237,238,239,240,237,241,240,239,241,242,240,243,242,241,244,242,243,244,245
+             ,242,244,246,245,247,246,244,248,246,247,248,249,246,248,250,249,251,250,248,252,250,251,252,253,250,253,252
+             ,254,255,256,257,256,255,49,48,49,255,48,255,258,258,255,259,260,261,262,263,264,265,248,266,267,266,248,247
+             ,268,269,270,271,272,273,274,275,276,267,266,244,267,244,243,277,278,279,280,281,282,283,284,285,204,286,287
+             ,288,289,290,291,292,293,292,291,254,254,291,294,295,296,297,298,299,300,301,302,303,302,301,304,110,304,301
+             ,110,120,304,112,120,110,304,120,141,304,141,305,141,306,305,141,307,306,149,307,141,149,308,307,149,148,308
+             ,309,308,148,309,310,308,310,309,311,312,313,314,315,316,317,318,319,310,319,318,320,189,321,187,321,189,322
+             ,323,324,325,326,327,328,310,319,329,330,331,332,333,334,335,336,329,337,307,329,336,338,329,307,310,329,338
+             ,308,310,338,339,340,341,342,343,344,345,346,347,307,336,348,349,350,351,352,353,354,336,355,356,355,336,337
+             ,357,358,359,209,358,357,211,358,209,211,360,358,230,360,211,229,360,230,361,360,229,361,362,360,231,362,361
+             ,233,362,231,362,233,363,364,365,366,367,368,369,370,371,372,371,370,373,374,375,376,377,378,379,380,371,381
+             ,306,371,380,371,306,372,306,307,372,372,307,382,382,307,348,383,384,385,386,387,388,302,306,389,306,302,305
+             ,390,391,392,393,394,395,396,397,398,303,302,389,399,400,249,253,400,399,253,294,400,254,294,253,401,402,403
+             ,404,405,406,399,249,250,407,408,409,410,411,412,413,414,415,416,417,418,419,420,421,422,423,424,193,195,194
+             ,175,176,186,425,426,427,110,301,428,428,301,429,430,431,432,238,433,239,433,238,234,434,435,436,437,438,439
+             ,440,441,442,433,234,232,443,444,445,446,447,448,43,44,449,58,59,108,108,59,450,108,450,451,451,450,104,451,104
+             ,105,452,453,454,455,456,457,458,459,460,461,462,463,464,465,466
+        }
+        LayerElementMaterial: 0 {
+            Version: 101
+            Name: ""
+            MappingInformationType: "ByPolygon"
+            ReferenceInformationType: "IndexToDirect"
+            Materials: 0,0,0,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,0,0,0,1,1,0,0,1,1,1
+             ,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,0,1,1,0,0,1,1,0,0,1,1,1,0,0,1,1,1,0,0,0,1,1
+             ,0,0,1,1,1,1,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+             ,1,1,1,1,0,0,1,1,0,0,0,1,1,0,0,0,0,1,1,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,0,0,1,0,0,1,1,1,1,1,0
+             ,0,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,0,0,1,1,1,1,1,1,0,0,1,1,0,0,0,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,1,0
+             ,1,1,0,1,1,0,0,0,1,0,0,1,1,1,1,1,1,0,0,0,0,0
+        }
+        LayerElementTexture: 0 {
+            Version: 101
+            Name: ""
+            MappingInformationType: "ByPolygon"
+            ReferenceInformationType: "IndexToDirect"
+            BlendMode: "Translucent"
+            TextureAlpha: 1
+            TextureId: -1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+             ,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+             ,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+             ,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+             ,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+             ,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+             ,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+             ,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+             ,-1,-1,-1,-1
+        }
+        Layer: 0 {
+            Version: 100
+            LayerElement:  {
+                Type: "LayerElementNormal"
+                TypedIndex: 0
+            }
+            LayerElement:  {
+                Type: "LayerElementMaterial"
+                TypedIndex: 0
+            }
+            LayerElement:  {
+                Type: "LayerElementTexture"
+                TypedIndex: 0
+            }
+            LayerElement:  {
+                Type: "LayerElementUV"
+                TypedIndex: 0
+            }
+        }
+        NodeAttributeName: "Geometry::Mesh2"
+    }
+    Model: "Model::Group3", "Null" {
+        Version: 232
+        Properties60:  {
+            Property: "QuaternionInterpolate", "bool", "",0
+            Property: "RotationOffset", "Vector3D", "",0,0,0
+            Property: "RotationPivot", "Vector3D", "",0,0,0
+            Property: "ScalingOffset", "Vector3D", "",0,0,0
+            Property: "ScalingPivot", "Vector3D", "",0,0,0
+            Property: "TranslationActive", "bool", "",0
+            Property: "TranslationMin", "Vector3D", "",0,0,0
+            Property: "TranslationMax", "Vector3D", "",0,0,0
+            Property: "TranslationMinX", "bool", "",0
+            Property: "TranslationMinY", "bool", "",0
+            Property: "TranslationMinZ", "bool", "",0
+            Property: "TranslationMaxX", "bool", "",0
+            Property: "TranslationMaxY", "bool", "",0
+            Property: "TranslationMaxZ", "bool", "",0
+            Property: "RotationOrder", "enum", "",0
+            Property: "RotationSpaceForLimitOnly", "bool", "",0
+            Property: "RotationStiffnessX", "double", "",0
+            Property: "RotationStiffnessY", "double", "",0
+            Property: "RotationStiffnessZ", "double", "",0
+            Property: "AxisLen", "double", "",10
+            Property: "PreRotation", "Vector3D", "",0,0,0
+            Property: "PostRotation", "Vector3D", "",0,0,0
+            Property: "RotationActive", "bool", "",0
+            Property: "RotationMin", "Vector3D", "",0,0,0
+            Property: "RotationMax", "Vector3D", "",0,0,0
+            Property: "RotationMinX", "bool", "",0
+            Property: "RotationMinY", "bool", "",0
+            Property: "RotationMinZ", "bool", "",0
+            Property: "RotationMaxX", "bool", "",0
+            Property: "RotationMaxY", "bool", "",0
+            Property: "RotationMaxZ", "bool", "",0
+            Property: "InheritType", "enum", "",0
+            Property: "ScalingActive", "bool", "",0
+            Property: "ScalingMin", "Vector3D", "",1,1,1
+            Property: "ScalingMax", "Vector3D", "",1,1,1
+            Property: "ScalingMinX", "bool", "",0
+            Property: "ScalingMinY", "bool", "",0
+            Property: "ScalingMinZ", "bool", "",0
+            Property: "ScalingMaxX", "bool", "",0
+            Property: "ScalingMaxY", "bool", "",0
+            Property: "ScalingMaxZ", "bool", "",0
+            Property: "GeometricTranslation", "Vector3D", "",0,0,0
+            Property: "GeometricRotation", "Vector3D", "",0,0,0
+            Property: "GeometricScaling", "Vector3D", "",1,1,1
+            Property: "MinDampRangeX", "double", "",0
+            Property: "MinDampRangeY", "double", "",0
+            Property: "MinDampRangeZ", "double", "",0
+            Property: "MaxDampRangeX", "double", "",0
+            Property: "MaxDampRangeY", "double", "",0
+            Property: "MaxDampRangeZ", "double", "",0
+            Property: "MinDampStrengthX", "double", "",0
+            Property: "MinDampStrengthY", "double", "",0
+            Property: "MinDampStrengthZ", "double", "",0
+            Property: "MaxDampStrengthX", "double", "",0
+            Property: "MaxDampStrengthY", "double", "",0
+            Property: "MaxDampStrengthZ", "double", "",0
+            Property: "PreferedAngleX", "double", "",0
+            Property: "PreferedAngleY", "double", "",0
+            Property: "PreferedAngleZ", "double", "",0
+            Property: "LookAtProperty", "object", ""
+            Property: "UpVectorProperty", "object", ""
+            Property: "Show", "bool", "",1
+            Property: "NegativePercentShapeSupport", "bool", "",1
+            Property: "DefaultAttributeIndex", "int", "",-1
+            Property: "Lcl Translation", "Lcl Translation", "A+",0,0,0
+            Property: "Lcl Rotation", "Lcl Rotation", "A+",0,0,0
+            Property: "Lcl Scaling", "Lcl Scaling", "A+",1,1,1
+            Property: "Visibility", "Visibility", "A+",1
+        }
+        MultiLayer: 0
+        MultiTake: 1
+        Shading: Y
+        Culling: "CullingOff"
+        TypeFlags: "Null"
+    }
+    Model: "Model::Mesh3", "Mesh" {
+        Version: 232
+        Properties60:  {
+            Property: "QuaternionInterpolate", "bool", "",0
+            Property: "RotationOffset", "Vector3D", "",0,0,0
+            Property: "RotationPivot", "Vector3D", "",0,0,0
+            Property: "ScalingOffset", "Vector3D", "",0,0,0
+            Property: "ScalingPivot", "Vector3D", "",0,0,0
+            Property: "TranslationActive", "bool", "",0
+            Property: "TranslationMin", "Vector3D", "",0,0,0
+            Property: "TranslationMax", "Vector3D", "",0,0,0
+            Property: "TranslationMinX", "bool", "",0
+            Property: "TranslationMinY", "bool", "",0
+            Property: "TranslationMinZ", "bool", "",0
+            Property: "TranslationMaxX", "bool", "",0
+            Property: "TranslationMaxY", "bool", "",0
+            Property: "TranslationMaxZ", "bool", "",0
+            Property: "RotationOrder", "enum", "",0
+            Property: "RotationSpaceForLimitOnly", "bool", "",0
+            Property: "RotationStiffnessX", "double", "",0
+            Property: "RotationStiffnessY", "double", "",0
+            Property: "RotationStiffnessZ", "double", "",0
+            Property: "AxisLen", "double", "",10
+            Property: "PreRotation", "Vector3D", "",0,0,0
+            Property: "PostRotation", "Vector3D", "",0,0,0
+            Property: "RotationActive", "bool", "",0
+            Property: "RotationMin", "Vector3D", "",0,0,0
+            Property: "RotationMax", "Vector3D", "",0,0,0
+            Property: "RotationMinX", "bool", "",0
+            Property: "RotationMinY", "bool", "",0
+            Property: "RotationMinZ", "bool", "",0
+            Property: "RotationMaxX", "bool", "",0
+            Property: "RotationMaxY", "bool", "",0
+            Property: "RotationMaxZ", "bool", "",0
+            Property: "InheritType", "enum", "",0
+            Property: "ScalingActive", "bool", "",0
+            Property: "ScalingMin", "Vector3D", "",1,1,1
+            Property: "ScalingMax", "Vector3D", "",1,1,1
+            Property: "ScalingMinX", "bool", "",0
+            Property: "ScalingMinY", "bool", "",0
+            Property: "ScalingMinZ", "bool", "",0
+            Property: "ScalingMaxX", "bool", "",0
+            Property: "ScalingMaxY", "bool", "",0
+            Property: "ScalingMaxZ", "bool", "",0
+            Property: "GeometricTranslation", "Vector3D", "",0,0,0
+            Property: "GeometricRotation", "Vector3D", "",0,0,0
+            Property: "GeometricScaling", "Vector3D", "",1,1,1
+            Property: "MinDampRangeX", "double", "",0
+            Property: "MinDampRangeY", "double", "",0
+            Property: "MinDampRangeZ", "double", "",0
+            Property: "MaxDampRangeX", "double", "",0
+            Property: "MaxDampRangeY", "double", "",0
+            Property: "MaxDampRangeZ", "double", "",0
+            Property: "MinDampStrengthX", "double", "",0
+            Property: "MinDampStrengthY", "double", "",0
+            Property: "MinDampStrengthZ", "double", "",0
+            Property: "MaxDampStrengthX", "double", "",0
+            Property: "MaxDampStrengthY", "double", "",0
+            Property: "MaxDampStrengthZ", "double", "",0
+            Property: "PreferedAngleX", "double", "",0
+            Property: "PreferedAngleY", "double", "",0
+            Property: "PreferedAngleZ", "double", "",0
+            Property: "LookAtProperty", "object", ""
+            Property: "UpVectorProperty", "object", ""
+            Property: "Show", "bool", "",1
+            Property: "NegativePercentShapeSupport", "bool", "",1
+            Property: "DefaultAttributeIndex", "int", "",0
+            Property: "Lcl Translation", "Lcl Translation", "A+",0,0,0
+            Property: "Lcl Rotation", "Lcl Rotation", "A+",0,0,0
+            Property: "Lcl Scaling", "Lcl Scaling", "A+",1,1,1
+            Property: "Visibility", "Visibility", "A+",1
+            Property: "Color", "ColorRGB", "N",0.8,0.8,0.8
+            Property: "BBoxMin", "Vector3D", "N",0,0,0
+            Property: "BBoxMax", "Vector3D", "N",0,0,0
+        }
+        MultiLayer: 0
+        MultiTake: 1
+        Shading: T
+        Culling: "CullingOff"
+        Vertices: 0.999999999999999,6.11,-1,1.05469064573712,5.15,-0.806385775655065,1.21631663673638,5.15,-1.0761513379583,1.05469064573712
+        ,5.15,-0.806385775655065,0.999999999999999,6.11,-1,0.78368336326362,5.15,-0.9238486620417,0.999999999999999,6.11,-1
+        ,0.945309354262875,5.15,-1.19361422434493,0.78368336326362,5.15,-0.9238486620417,0.999999999999999,6.11,-1,1.21631663673638
+        ,5.15,-1.0761513379583,0.945309354262875,5.15,-1.19361422434493,0.78368336326362,5.15,-0.9238486620417,0.945309354262875
+        ,5.15,-1.19361422434493,1.21631663673638,5.15,-1.0761513379583,1.05469064573712,5.15,-0.806385775655065
+        PolygonVertexIndex: 0,1,-3,3,4,-6,6,7,-9,9,10,-12,12,13,14,-16
+        GeometryVersion: 124
+        LayerElementNormal: 0 {
+            Version: 101
+            Name: ""
+            MappingInformationType: "ByVertice"
+            ReferenceInformationType: "Direct"
+            Normals: 0.848012950422964,0.150779975062589,0.508074241656733,0.848012950422964,0.150779975062589,0.508074241656733,0.848012950422964
+             ,0.150779975062589,0.508074241656733,-0.39254050652627,0.160291871796789,0.905659133765006,-0.39254050652627
+             ,0.160291871796789,0.905659133765006,-0.39254050652627,0.160291871796789,0.905659133765006,-0.848012950422971
+             ,0.150779975062587,-0.508074241656722,-0.848012950422971,0.150779975062587,-0.508074241656722,-0.848012950422971
+             ,0.150779975062587,-0.508074241656722,0.39254050652626,0.16029187179679,-0.90565913376501,0.39254050652626,0.16029187179679
+             ,-0.90565913376501,0.39254050652626,0.16029187179679,-0.90565913376501,0,-1,-0,0,-1,-0,0,-1,-0,0,-1,-0
+        }
+        LayerElementUV: 0 {
+            Version: 101
+            Name: ""
+            MappingInformationType: "ByPolygonVertex"
+            ReferenceInformationType: "IndexToDirect"
+            UV: 10.9158315943165,36.8523474774347,5.48363021930385,-1.3800255760049,17.8646542849855,-1.3800255760049,9.78958344631653
+             ,0.680135463195443,4.7826169266795,38.9705186859748,-1.83909272690913,0.680135463195442,-10.9158315943165,37.8740031453237
+             ,-16.3480329693292,-0.358369908115927,-3.96700890364772,-0.358369908115928,-4.78261692667961,35.6426210496389
+             ,-11.4043265802685,-2.64776217314046,0.22434959295735,-2.64776217314046,0,4.62452308608799,-6.36322799209665
+             ,15.2452145153492,-17.0328060422348,10.6206914292612,-10.6695780501379,0
+            UVIndex: 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
+        }
+        LayerElementMaterial: 0 {
+            Version: 101
+            Name: ""
+            MappingInformationType: "ByPolygon"
+            ReferenceInformationType: "IndexToDirect"
+            Materials: 0,0,0,0,0
+        }
+        LayerElementTexture: 0 {
+            Version: 101
+            Name: ""
+            MappingInformationType: "ByPolygon"
+            ReferenceInformationType: "IndexToDirect"
+            BlendMode: "Translucent"
+            TextureAlpha: 1
+            TextureId: -1,-1,-1,-1,-1
+        }
+        Layer: 0 {
+            Version: 100
+            LayerElement:  {
+                Type: "LayerElementNormal"
+                TypedIndex: 0
+            }
+            LayerElement:  {
+                Type: "LayerElementMaterial"
+                TypedIndex: 0
+            }
+            LayerElement:  {
+                Type: "LayerElementTexture"
+                TypedIndex: 0
+            }
+            LayerElement:  {
+                Type: "LayerElementUV"
+                TypedIndex: 0
+            }
+        }
+        NodeAttributeName: "Geometry::Mesh3"
+    }
+    SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
+        Type: "UserData"
+        Version: 100
+        MetaData:  {
+            Version: 100
+            Title: ""
+            Subject: ""
+            Author: ""
+            Keywords: ""
+            Revision: ""
+            Comment: ""
+        }
+        Properties60:  {
+            Property: "DocumentUrl", "KString", "", "C:\Users\Wander\AppData\Local\Temp\DB0C.tmp.fbx"
+            Property: "SrcDocumentUrl", "KString", "", "C:\Users\Wander\AppData\Local\Temp\DB0C.tmp.fbx"
+            Property: "Original", "Compound", ""
+            Property: "Original|ApplicationVendor", "KString", "", ""
+            Property: "Original|ApplicationName", "KString", "", ""
+            Property: "Original|ApplicationVersion", "KString", "", ""
+            Property: "Original|DateTime_GMT", "DateTime", "", ""
+            Property: "Original|FileName", "KString", "", ""
+            Property: "LastSaved", "Compound", ""
+            Property: "LastSaved|ApplicationVendor", "KString", "", ""
+            Property: "LastSaved|ApplicationName", "KString", "", ""
+            Property: "LastSaved|ApplicationVersion", "KString", "", ""
+            Property: "LastSaved|DateTime_GMT", "DateTime", "", ""
+        }
+    }
+    Material: "Material::M_0133_Gray", "" {
+        Version: 102
+        ShadingModel: "phong"
+        MultiLayer: 0
+        Properties60:  {
+            Property: "ShadingModel", "KString", "", "Phong"
+            Property: "MultiLayer", "bool", "",0
+            Property: "EmissiveColor", "ColorRGB", "",0,0,0
+            Property: "EmissiveFactor", "double", "",1
+            Property: "AmbientColor", "ColorRGB", "",0,0,0
+            Property: "AmbientFactor", "double", "",1
+            Property: "DiffuseColor", "ColorRGB", "",0.501960784313725,0.501960784313725,0.501960784313725
+            Property: "DiffuseFactor", "double", "",1
+            Property: "Bump", "Vector3D", "",0,0,0
+            Property: "NormalMap", "Vector3D", "",0,0,0
+            Property: "TransparentColor", "ColorRGB", "",1,1,1
+            Property: "TransparencyFactor", "double", "",0
+            Property: "SpecularColor", "ColorRGB", "",0.33,0.33,0.33
+            Property: "SpecularFactor", "double", "",1
+            Property: "ShininessExponent", "double", "",20
+            Property: "ReflectionColor", "ColorRGB", "",0,0,0
+            Property: "ReflectionFactor", "double", "",0
+            Property: "Emissive", "Vector3D", "",0,0,0
+            Property: "Ambient", "Vector3D", "",0,0,0
+            Property: "Diffuse", "Vector3D", "",0.501960784313725,0.501960784313725,0.501960784313725
+            Property: "Specular", "Vector3D", "",0.33,0.33,0.33
+            Property: "Shininess", "double", "",20
+            Property: "Opacity", "double", "",1
+            Property: "Reflectivity", "double", "",0
+        }
+    }
+    Material: "Material::_Charcoal_", "" {
+        Version: 102
+        ShadingModel: "phong"
+        MultiLayer: 0
+        Properties60:  {
+            Property: "ShadingModel", "KString", "", "Phong"
+            Property: "MultiLayer", "bool", "",0
+            Property: "EmissiveColor", "ColorRGB", "",0,0,0
+            Property: "EmissiveFactor", "double", "",1
+            Property: "AmbientColor", "ColorRGB", "",0,0,0
+            Property: "AmbientFactor", "double", "",1
+            Property: "DiffuseColor", "ColorRGB", "",0.137254901960784,0.137254901960784,0.137254901960784
+            Property: "DiffuseFactor", "double", "",1
+            Property: "Bump", "Vector3D", "",0,0,0
+            Property: "NormalMap", "Vector3D", "",0,0,0
+            Property: "TransparentColor", "ColorRGB", "",1,1,1
+            Property: "TransparencyFactor", "double", "",0
+            Property: "SpecularColor", "ColorRGB", "",0.33,0.33,0.33
+            Property: "SpecularFactor", "double", "",1
+            Property: "ShininessExponent", "double", "",20
+            Property: "ReflectionColor", "ColorRGB", "",0,0,0
+            Property: "ReflectionFactor", "double", "",0
+            Property: "Emissive", "Vector3D", "",0,0,0
+            Property: "Ambient", "Vector3D", "",0,0,0
+            Property: "Diffuse", "Vector3D", "",0.137254901960784,0.137254901960784,0.137254901960784
+            Property: "Specular", "Vector3D", "",0.33,0.33,0.33
+            Property: "Shininess", "double", "",20
+            Property: "Opacity", "double", "",1
+            Property: "Reflectivity", "double", "",0
+        }
+    }
+    Material: "Material::M_0021_DarkRed", "" {
+        Version: 102
+        ShadingModel: "phong"
+        MultiLayer: 0
+        Properties60:  {
+            Property: "ShadingModel", "KString", "", "Phong"
+            Property: "MultiLayer", "bool", "",0
+            Property: "EmissiveColor", "ColorRGB", "",0,0,0
+            Property: "EmissiveFactor", "double", "",1
+            Property: "AmbientColor", "ColorRGB", "",0,0,0
+            Property: "AmbientFactor", "double", "",1
+            Property: "DiffuseColor", "ColorRGB", "",0.545098039215686,0,0
+            Property: "DiffuseFactor", "double", "",1
+            Property: "Bump", "Vector3D", "",0,0,0
+            Property: "NormalMap", "Vector3D", "",0,0,0
+            Property: "TransparentColor", "ColorRGB", "",1,1,1
+            Property: "TransparencyFactor", "double", "",0
+            Property: "SpecularColor", "ColorRGB", "",0.33,0.33,0.33
+            Property: "SpecularFactor", "double", "",1
+            Property: "ShininessExponent", "double", "",20
+            Property: "ReflectionColor", "ColorRGB", "",0,0,0
+            Property: "ReflectionFactor", "double", "",0
+            Property: "Emissive", "Vector3D", "",0,0,0
+            Property: "Ambient", "Vector3D", "",0,0,0
+            Property: "Diffuse", "Vector3D", "",0.545098039215686,0,0
+            Property: "Specular", "Vector3D", "",0.33,0.33,0.33
+            Property: "Shininess", "double", "",20
+            Property: "Opacity", "double", "",1
+            Property: "Reflectivity", "double", "",0
+        }
+    }
+    GlobalSettings:  {
+        Version: 1000
+        Properties60:  {
+            Property: "UpAxis", "int", "",1
+            Property: "UpAxisSign", "int", "",1
+            Property: "FrontAxis", "int", "",2
+            Property: "FrontAxisSign", "int", "",1
+            Property: "CoordAxis", "int", "",0
+            Property: "CoordAxisSign", "int", "",1
+            Property: "UnitScaleFactor", "double", "",1
+        }
+    }
+}
+
+; Object connections
+;------------------------------------------------------------------
+
+Connections:  {
+    Connect: "OO", "Model::Model", "Model::Scene"
+    Connect: "OO", "Model::Group1", "Model::Model"
+    Connect: "OO", "Model::Group2", "Model::Model"
+    Connect: "OO", "Model::Group3", "Model::Model"
+    Connect: "OO", "Model::Mesh1", "Model::Group1"
+    Connect: "OO", "Material::M_0021_DarkRed", "Model::Mesh1"
+    Connect: "OO", "Model::Mesh2", "Model::Group2"
+    Connect: "OO", "Material::M_0133_Gray", "Model::Mesh2"
+    Connect: "OO", "Material::_Charcoal_", "Model::Mesh2"
+    Connect: "OO", "Model::Mesh3", "Model::Group3"
+    Connect: "OO", "Material::M_0021_DarkRed", "Model::Mesh3"
+}
+;Takes and animation section
+;----------------------------------------------------
+
+Takes:  {
+    Current: ""
+}
+;Version 5 settings
+;------------------------------------------------------------------
+
+Version5:  {
+    AmbientRenderSettings:  {
+        Version: 101
+        AmbientLightColor: 0.4,0.4,0.4,0
+    }
+    FogOptions:  {
+        FlogEnable: 0
+        FogMode: 0
+        FogDensity: 0.002
+        FogStart: 0.3
+        FogEnd: 1000
+        FogColor: 1,1,1,1
+    }
+    Settings:  {
+        FrameRate: "30"
+        TimeFormat: 1
+        SnapOnFrames: 0
+        ReferenceTimeIndex: -1
+        TimeLineStartTime: 0
+        TimeLineStopTime: 46186158000
+    }
+    RendererSetting:  {
+        DefaultCamera: ""
+        DefaultViewingMode: 0
+    }
+}

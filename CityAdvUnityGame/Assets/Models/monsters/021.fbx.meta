@@ -1,0 +1,166 @@
+fileFormatVersion: 1
+guid: 204b925d424704bcfad7457bd55a548e
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 0.01
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 0
+  tangentSpace:
+    normalImportMode: 0
+    tangentImportMode: 1
+    smoothingAngle: 60
+    splitTangents: 1
+  materials:
+    generation: 1
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 1
+    animationWrapMode: 0
+    splitAnimations: 1
+  nodeInfo:
+    Mesh9:
+    - 100000
+    - 400000
+    - 3300000
+    - 2300000
+    Mesh6:
+    - 100002
+    - 400002
+    - 3300002
+    - 2300002
+    Group7:
+    - 100004
+    - 400004
+    Group8:
+    - 100006
+    - 400006
+    Mesh13:
+    - 100008
+    - 400008
+    - 3300004
+    - 2300004
+    Mesh12:
+    - 100010
+    - 400010
+    - 3300006
+    - 2300006
+    Group13:
+    - 100012
+    - 400012
+    Group15:
+    - 100014
+    - 400014
+    Mesh14:
+    - 100016
+    - 400016
+    - 3300008
+    - 2300008
+    Mesh15:
+    - 100018
+    - 400018
+    - 3300010
+    - 2300010
+    Group11:
+    - 100020
+    - 400020
+    Group12:
+    - 100022
+    - 400022
+    Group14:
+    - 100024
+    - 400024
+    Mesh7:
+    - 100026
+    - 400026
+    - 3300012
+    - 2300012
+    Mesh2:
+    - 100028
+    - 400028
+    - 3300014
+    - 2300014
+    Mesh3:
+    - 100030
+    - 400030
+    - 3300016
+    - 2300016
+    Group6:
+    - 100032
+    - 400032
+    Mesh5:
+    - 100034
+    - 400034
+    - 3300018
+    - 2300018
+    Group5:
+    - 100036
+    - 400036
+    Group4:
+    - 100038
+    - 400038
+    Mesh4:
+    - 100040
+    - 400040
+    - 3300020
+    - 2300020
+    Group2:
+    - 100042
+    - 400042
+    Group3:
+    - 100044
+    - 400044
+    Mesh1:
+    - 100046
+    - 400046
+    - 3300022
+    - 2300022
+    Group1:
+    - 100048
+    - 400048
+    Mesh10:
+    - 100050
+    - 400050
+    - 3300024
+    - 2300024
+    Mesh11:
+    - 100052
+    - 400052
+    - 3300026
+    - 2300026
+    Mesh8:
+    - 100054
+    - 400054
+    - 3300028
+    - 2300028
+    Group9:
+    - 100056
+    - 400056
+    Group10:
+    - 100058
+    - 400058
+    //RootNode:
+    - 100060
+    - 400060
+    - 11100000
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: Mesh1
+    4300002: Mesh2
+    4300004: Mesh3
+    4300006: Mesh4
+    4300008: Mesh5
+    4300010: Mesh6
+    4300012: Mesh7
+    4300014: Mesh8
+    4300016: Mesh9
+    4300018: Mesh10
+    4300020: Mesh11
+    4300022: Mesh12
+    4300024: Mesh13
+    4300026: Mesh14
+    4300028: Mesh15

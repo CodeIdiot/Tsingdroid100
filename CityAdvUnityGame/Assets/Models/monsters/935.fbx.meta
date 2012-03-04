@@ -1,0 +1,91 @@
+fileFormatVersion: 1
+guid: 5d0fb9e99e1194704b92004d3e9fa2b6
+ModelImporter:
+  importerVersion: 7
+  meshes:
+    scaleFactor: 0.01
+    useFileUnits: 1
+    meshCompression: 0
+    generateColliders: 0
+    swapUVs: 0
+  tangentSpace:
+    normalImportMode: 0
+    tangentImportMode: 1
+    smoothingAngle: 60
+    splitTangents: 1
+  materials:
+    generation: 1
+  animations:
+    generation: 3
+    bakeAnimations: 0
+    animationCompression: 1
+    animationWrapMode: 0
+    splitAnimations: 1
+  nodeInfo:
+    Mesh6:
+    - 100000
+    - 400000
+    - 3300000
+    - 2300000
+    //RootNode:
+    - 100002
+    - 400002
+    - 11100000
+    Group2:
+    - 100004
+    - 400004
+    Mesh2:
+    - 100006
+    - 400006
+    - 3300002
+    - 2300002
+    Mesh7:
+    - 100008
+    - 400008
+    - 3300004
+    - 2300004
+    Mesh4:
+    - 100010
+    - 400010
+    - 3300006
+    - 2300006
+    Group6:
+    - 100012
+    - 400012
+    Group5:
+    - 100014
+    - 400014
+    Mesh5:
+    - 100016
+    - 400016
+    - 3300008
+    - 2300008
+    Group4:
+    - 100018
+    - 400018
+    Mesh1:
+    - 100020
+    - 400020
+    - 3300010
+    - 2300010
+    Group1:
+    - 100022
+    - 400022
+    Group3:
+    - 100024
+    - 400024
+    Mesh3:
+    - 100026
+    - 400026
+    - 3300012
+    - 2300012
+AssetImporter:
+  importerVersion: 1
+  fileIDToRecycleName:
+    4300000: Mesh1
+    4300002: Mesh2
+    4300004: Mesh3
+    4300006: Mesh4
+    4300008: Mesh5
+    4300010: Mesh6
+    4300012: Mesh7

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>9.0.21022</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{9470683A-D283-498C-15C9-3D8C71F5D788}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace>Irrelevant</RootNamespace>
+	<AssemblyName>Irrelvant</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_3_0;UNITY_3_3;UNITY_EDITOR;ENABLE_PROFILER;UNITY_ANDROID;ENABLE_GENERICS;ENABLE_NETWORK;ENABLE_WWW</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+	<Reference Include="Boo.Lang">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/Boo.Lang.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityScript">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/UnityScript.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Editor\GPSEditorWindow.cs" />
+     <None Include="Assets\Editor\SaveFontTexture.js" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <Compile Include="Assets\Scripts\Controllers\AndroidAccelOrientationController.cs" />
+     <Compile Include="Assets\Scripts\Controllers\AndroidInputController.cs" />
+     <Compile Include="Assets\Scripts\Controllers\AndroidTouchPositionController.cs" />
+     <Compile Include="Assets\Scripts\Controllers\BeaconDebuggerPositionController.cs" />
+     <Compile Include="Assets\Scripts\Controllers\GPSBeaconComponent.cs" />
+     <Compile Include="Assets\Scripts\Controllers\GPSBeaconManager.cs" />
+     <Compile Include="Assets\Scripts\Controllers\GPSPositionController.cs" />
+     <Compile Include="Assets\Scripts\Controllers\InputControllerBase.cs" />
+     <Compile Include="Assets\Scripts\Controllers\InputManager.cs" />
+     <Compile Include="Assets\Scripts\Controllers\KeyboardPositionController.cs" />
+     <Compile Include="Assets\Scripts\Controllers\MainCameraManager.cs" />
+     <Compile Include="Assets\Scripts\Controllers\MouseOrientationController.cs" />
+     <Compile Include="Assets\Scripts\Controllers\OrientationControllerBase.cs" />
+     <Compile Include="Assets\Scripts\Controllers\PcInputController.cs" />
+     <Compile Include="Assets\Scripts\Controllers\PlayerManager.cs" />
+     <Compile Include="Assets\Scripts\Controllers\PositionControllerBase.cs" />
+     <Compile Include="Assets\Scripts\Controllers\RemoteSensorClient.cs" />
+     <Compile Include="Assets\Scripts\DataStorage\GameData.cs" />
+     <Compile Include="Assets\Scripts\DataStorage\ReferencePool.cs" />
+     <Compile Include="Assets\Scripts\DemoMain\BossButton.cs" />
+     <Compile Include="Assets\Scripts\DemoMain\ExitButton.cs" />
+     <Compile Include="Assets\Scripts\DemoMain\Monster1Button.cs" />
+     <Compile Include="Assets\Scripts\DemoMain\Monster2Button.cs" />
+     <Compile Include="Assets\Scripts\DemoMain\NavButton.cs" />
+     <Compile Include="Assets\Scripts\DemoMain\QrcodeButton.cs" />
+     <Compile Include="Assets\Scripts\DemoMain\ServerNotifier.cs" />
+     <Compile Include="Assets\Scripts\DemoMain\SkyboxController.cs" />
+     <Compile Include="Assets\Scripts\GUI\CoroutineComponent.cs" />
+     <Compile Include="Assets\Scripts\GUI\CoroutineList.cs" />
+     <Compile Include="Assets\Scripts\GUI\EntryScreen.cs" />
+     <Compile Include="Assets\Scripts\GUI\GameScreen.cs" />
+     <Compile Include="Assets\Scripts\NPCBehaviors\BossBehavior.cs" />
+     <Compile Include="Assets\Scripts\NPCBehaviors\Monster1Behavior.cs" />
+     <Compile Include="Assets\Scripts\NPCBehaviors\Monster2Behavior.cs" />
+     <Compile Include="Assets\Scripts\NPCBehaviors\TesterBehavior.cs" />
+     <Compile Include="Assets\Scripts\PluginsWrapper\PluginsHelper.cs" />
+     <Compile Include="Assets\Scripts\PluginsWrapper\UnityLocationManager.cs" />
+     <Compile Include="Assets\Scripts\PluginsWrapper\UnitySensorManager.cs" />
+     <Compile Include="Assets\Scripts\StorySystem\ChatTextContainer.cs" />
+     <Compile Include="Assets\Scripts\StorySystem\NPCBehavior.cs" />
+     <Compile Include="Assets\Scripts\StorySystem\SelectionResult.cs" />
+     <Compile Include="Assets\Scripts\StorySystem\SelectionStoryDialog.cs" />
+     <Compile Include="Assets\Scripts\StorySystem\StoryDialog.cs" />
+     <Compile Include="Assets\Scripts\Test\YieldTest.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
+	
