@@ -17,11 +17,12 @@ public class NavButton: MonoBehaviour {
 		Collider collider = GetComponent<Collider>();
 		if (InputManager.Controller.isClickOn(collider, 500)) {
 			Debug.Log("Click on nav!");
-			
-#if UNITY_ANDROID
+		
+			Application.LoadLevel(4);	
+/*#if UNITY_ANDROID
 		AndroidJavaObject activity = PluginsHelper.GetUnityActivity();
 		activity.Call("startNav");
-#endif
+#endif*/
 		}
 	}
 }

@@ -12,6 +12,9 @@ public class PlayerManager : MonoBehaviour {
 		if (Application.platform == RuntimePlatform.Android)
 		{
 			orientationController = new AndroidAccelOrientationManager(this);
+			if (Application.loadedLevel == 4) {
+				positionController = new GPSPositionController(this);
+			}
 			Debug.Log("Using android orientation");
 		}
 		else
